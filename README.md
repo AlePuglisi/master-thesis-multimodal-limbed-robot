@@ -1,7 +1,33 @@
 # master-thesis-multimodal-limbed-robot
-Master Thesis and Executive Summary LaTeX source for my Master Thesis at Politecnico di Milano and Tohoku University: <br/>
+Master Thesis and Executive Summary LaTeX source of my Master Thesis. This thesis research started during an ExtraEU exchange at the Space Robotics Lab (SRL), Tohoku University, and was concluded in my university: Politecnico di Milano. <br/>
 
-### Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbed Robot for Unstructured Environments
+<p align="center">
+<img src="assets/PolimiLogo.png" height="80"/> &nbsp;
+<img src="assets/TohokuLogo.jpg" height="80"/> &nbsp;
+<img src="assets/SRLLogo.png" height="80"/> &nbsp;
+</p>
+
+<h3 align="center">
+Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbed Robot for Unstructured Environments
+</h3>
+<p align="center">
+  <a href="https://alepuglisi.github.io/">Alessandro Puglisi</a><sup>1</sup>,</span>
+  <a href="https://scholar.google.com/citations?user=SiorK6wAAAAJ&hl=it">Luca Bascetta</a><sup>2</sup>,</span>
+  <a href="https://scholar.google.com/citations?user=mzUOHycAAAAJ&hl=en">Kazuya Yoshida</a><sup>3</sup>,</span>
+  <br>
+  <sup>1</sup> RSM-LIRMM, University of Montpellier </span> <br/>
+  <sup>2</sup> Politecnico di Milano </span> 
+  </span> 
+  <sup>3</sup> Tohoku University </span> 
+  <br>
+  <b>Master Thesis in Automation and Control Engineering</b>
+</p>
+
+<p align="center">
+<img src="assets/LIMBERO_GRIEEL.png" height="170"/> &nbsp;
+<img src="assets/quad_manip.jpg" height="170"/> &nbsp;
+</p>
+
 
 
 
