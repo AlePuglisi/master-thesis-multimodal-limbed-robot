@@ -1,0 +1,50 @@
+% ABSTRACT IN ENGLISH
+\chapter*{Abstract} 
+
+Crucial scientific and social activities such as environmental monitoring, exploration of extreme environments, and disaster response have relied on teleoperated robotic systems for as long as these technologies have existed.
+Those operations are conducted in dangerous or unreachable environments for humans, where the deployment of machines capable of achieving multiple tasks is inevitable. A clear example is planetary exploration, conducted mainly with wheeled mobile robots since the first remotely operated rover landed on the lunar surface in 1970. 
+
+In recent years, achievements such as improved computing capabilities, 3D perception, environmental awareness, and advanced control techniques have made autonomous systems possible. Furthermore, novel mechanical designs and actuation systems enable locomotion in terrains where moving on wheels is unfeasible. Walking, climbing, flying, and swimming robots are conquering unstructured environments.
+However, to complete complex tasks in those settings, a unique locomotion mode is not enough, and the development of multimodal robotic systems is an active research nowadays.     
+
+
+The robotic system considered in this research is a multimodal four-limbed machine, with walking, climbing, and driving capabilities, thanks to the employed gripper-wheel transformable end effector. This system's multiple locomotion modes and manipulation abilities enable the efficient execution of complex missions, otherwise requiring the simultaneous deployment of different conventional robots.
+
+This cutting-edge machine is currently a prototype of the Space Robotics Lab, and this work contributes to its first development steps, with the design and implementation of reliable high-level motion algorithms, motion controller design, software architecture integration, simulation setup, and first real system experiments. 
+
+The principal algorithm developed enables a smooth autonomous and adaptable module transformation, maintaining the robot stable with three limbs on the ground while transforming the raised limb. In computing the motion sequence, anticipative planning is used, and feedback from the system state adapts the tasks, considering dexterity and stability in defining the next robot configuration. 
+
+The literature lacks an index of dexterity for multilimbed robots, for this reason, in this research a novel criterion has been defined, extending the theory on robotic arm manipulability ellipsoid. This index proves to be efficient in defining the preferred direction of motion of the robot base in a given configuration. Furthermore, this performance criterion has been tested in the bio-inspired example of a jumping grasshopper. 
+
+The algorithm and the motion controller have been developed and tested into a simulator, configured as part of this research. Finally, tests on the real system have been conducted.
+
+This work has defined the foundation of smooth locomotion transition and system autonomy, still under research for a novel mechanical design. In addition, many future design requirements and components have been derived from the system analysis. 
+
+
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} field robotics, multimodal robotics, motion control,manipulability analysis, ROS2, simulation.% Keywords
+
+
+% ABSTRACT IN ITALIAN
+\chapter*{Abstract in lingua italiana}
+Attività scientifiche e sociali di fondamentale importanza, quali il monitoraggio ambientale, l’esplorazione di ambienti estremi e la risposta a situazioni di emergenza, si sono da sempre affidate a sistemi robotici operati da remoto. Tali operazioni vengono condotte in ambienti pericolosi o inaccessibili per l’essere umano, dove il dispiegamento di macchine in grado di svolgere molteplici compiti risulta inevitabile. Un chiaro esempio è rappresentato dall’esplorazione planetaria, realizzata principalmente mediante robot mobili su ruote sin dal primo rover teleoperato atterrato sulla superficie lunare nel 1970.
+
+Negli ultimi anni, progressi significativi nelle capacità computazionali, nella percezione 3D, nella consapevolezza ambientale e nelle tecniche di controllo avanzato hanno reso possibile lo sviluppo di sistemi autonomi. Inoltre, innovativi design meccanici e sistemi di attuazione consentono oggi la locomozione in terreni dove muoversi su ruote risulta impraticabile. Sistemi robotici in grado di camminare su gambe, arrampicarsi, volare e nuotare stanno conquistando ambienti non strutturati. Tuttavia, per completare compiti complessi in tali contesti, una modalità di locomozione unica non è sufficiente, e lo sviluppo di sistemi robotici multimodali rappresenta oggi un campo di ricerca attivo.
+
+Il sistema robotico considerato in questa ricerca è una macchina multimodale a quattro arti, dotata di capacità di camminare, arrampicarsi e muoversi su ruote, grazie all’end-effector impiegato, trasformabile da ruota a gripper e viceversa. Le molteplici modalità di locomozione e le capacità manipolative di questo sistema permettono l’esecuzione efficiente di missioni complesse che, altrimenti, richiederebbero il dispiegamento simultaneo di differenti robot convenzionali.
+
+Questa macchina all’avanguardia è attualmente un prototipo sviluppato dallo Space Robotics Lab (Tohoku Univeristy, JP), e il presente lavoro contribuisce ai suoi primi passi di sviluppo, con la progettazione e l’implementazione di algoritmi di pianificazione del moto ad alto livello, il design del controller del moto, l’integrazione dell’architettura software, la configurazione dell’ambiente di simulazione e i primi esperimenti sul sistema reale.
+
+L’algoritmo principale sviluppato consente una trasformazione autonoma, fluida e adattabile del end-effector. La stabilità del robot è garantita da tre arti a contatto con il suolo, durante il quale l’arto sollevato viene trasformato. 
+Nella computazione della sequenza di movimento viene impiegata una pianificazione anticipativa, e il feedback dallo stato del sistema consente l’adattamento dei task, considerando destrezza e stabilità nella definizione della successiva configurazione del robot.
+
+La letteratura attuale risulta priva di un indice di destrezza per robot multi-limbed, e in questa ricerca è stato definito un nuovo criterio per la sua valutazione, come estensione dell’ellissoide di manipolabilità dei bracci robotici. Questo indice si dimostra efficace nell’identificare la direzione ottimale di movimento della base del robot in una data configurazione degli arti. Inoltre, tale criterio di performance è stato testato sull’esempio bio-ispirato di un grillo in fase di salto.
+
+L’algoritmo e il controller del moto sono stati sviluppati e testati in un simulatore, configurato durante questa ricerca. Infine, sono state condotte prove sul sistema reale.
+
+Questo lavoro ha definito le basi per una transizione fluida tra diverse modalità di locomozione e per l’autonomia del sistema, aspetti tuttora in fase di studio in relazione al nuovo design meccanico. Inoltre, dall’analisi del sistema sono stati derivati numerosi requisiti e componenti per i futuri sviluppi progettuali.
+
+
+\vspace{0.5em}
+\noindent\textbf{Parole chiave:} robotica in ambienti non strutturati, robotica multimodale, controllo del movimento, analisi di manipolabilità, ROS2, simulazione.% Keywords (italian)

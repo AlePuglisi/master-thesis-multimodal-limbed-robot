@@ -1,0 +1,70 @@
+% LIST OF SYMBOLS
+% Write out the List of Symbols in this page
+\chapter*{List of Symbols} % You have to include a chapter for your list of symbols (
+\label{ch:listSymbols}
+\begin{table}[H]
+    %\centering
+    \begin{tabular}{ll}
+   %     \textbf{Variable} & \textbf{Description} & \textbf{SI unit}    
+        %\hline\\[-9pt]
+        ${i}$ & Joint index.\\[2pt]
+        ${q_{i}}$ & Joint $i$ angular/prismatic position (manipulators).\\[2pt]
+        ${N}$ & Number of legs/limbs.\\[2pt]
+        ${N_c}$ & Number of legs/limbs in contact with the ground.\\[2pt]
+        ${j}$ & Leg/Limb index.\\[2pt]
+        ${J_c}$ & Set of indices of legs/limbs in contact with the ground.\\[2pt]
+        ${n_j}$ & Number of joints of leg/limb $j$.\\[2pt]
+        ${n_c}$ & Total Number of joints of legs/limbs in contact \\[2pt]
+        ${n}$ & Total number of joints.\\[2pt]
+        ${q_{j,i}}$ & Leg/Limb $j$, Joint $i$ angular/prismatic position (legged/limbed robots).\\[2pt]
+        ${\mathbf{q_{j}}}$ & vector of all joint values of leg/limb $j$\\[2pt]
+        ${\mathbf{P}_{c,j}}$ & Point of contact of leg/limb $j$, measured in the inertial frame.\\[2pt]
+        ${\mathbf{q_{c}}}$ & vector of all joint values of legs/limbs in contact with the ground.\\[2pt]
+        ${\mathbf{q_{a}}}$ & vector of all actuated joint values of legs/limbs (excluding virtual ones).\\[2pt]
+        ${\mathbf{q_b}}$ & vector of floating base DOFs (virtual).\\[2pt]
+        ${\mathbf{v_b}}$ & vector of base velocity.\\[2pt]
+        ${\mathbf{^k v_i}}$ & vector of frame $\mathbf{i}$ velocity expressed in frame $\mathbf{k}$.\\[2pt]
+        ${\textbf{q}}$ & vector of all joint variables DOFs (actuated).\\[2pt]
+        ${\mathbf{\bar{q}}}$ & vector of joint variables constrained on joint domain.\\[2pt]
+        ${\mathbf{q_{tot}}}$ & vector of joint values and floating base DOFs.\\[2pt]
+        ${\mathbf{R^i_j}}$ & Rotation matrix from frame $\mathbf{j}$ to $\mathbf{i}$ (rotation of frame $\mathbf{j}$ respect $\mathbf{i}$).\\[2pt]
+        ${\mathbf{^i p_j}}$ & 3D position vector of frame $\mathbf{j}$ origin, measured in frame $\mathbf{i}$.\\[2pt]
+        ${\mathbf{T^i_j}}$ & Homogeneous Transformation matrix from frame $\mathbf{j}$ to $\mathbf{i}$.\\[2pt]
+        ${\mathbf{\tilde{^ip_j}}}$ & Homogeneous vector of $\mathbf{^ip_j}$.\\[2pt]
+        $\mathbf{J}$ & Geometrical Jacobian matrix.\\[2pt]
+        $\mathbf{J_a}$ & Analytical Jacobian matrix.\\[2pt]
+        $\mathbf{^i J}$ & Jacobian matrix, with velocity expressed in frame $\mathbf{i}$.\\[2pt]
+        $\mathbf{J^k_i}$ & Velocity transformation matrix, from velocity in frame $\mathbf{i}$ to $\mathbf{k}$.\\[2pt]
+        $\mathbf{\tau}$ & Vector of generalized joint force (torques and forces).\\[2pt]
+        $\mathbf{\gamma_e}$ & Vector of static generalized force applied at the final frame.\\[2pt]        
+        $\mathbf{\gamma_e}$ & Vector of dynamic generalized force applied at the final frame.\\[2pt]
+    \end{tabular}
+\end{table}
+\newpage
+\begin{table}[H]
+    %\centering
+    \begin{tabular}{ll}
+        ${N_{gear}}$ & Gearbox reduction ratio.\\[2pt]
+        $\mathbf{P}_{CoM}$ &Position of base CoM, measured in the inertial frame.\\[2pt]        
+        $\overline{\mathbf{P}_{CoM}}$ &Position of base CoM vertical projection on support plane, measured in the inertial frame.\\[2pt]
+        $\sigma_{SS}(\cdot)$ & Sigma static stability function based on support polygon criterion.\\[2pt]
+        $\mathbf{M}_{j,k}$ & Tumbling moment around $jk$ tumbling axis.\\[2pt]
+        $m$ & Total mass of the system.\\[2pt]
+        $g$ & Gravitational acceleration.\\[2pt]
+        $P$ & Instantaneous output power of locomotion.  \\[2pt]
+        $P_{av}$ & Average power consumption during locomotion. \\[2pt]
+        $v$ & Magnitude of locomotion velocity in a given instant. \\[2pt]
+        $v_{av}$ & Average locomotion velocity during locomotion. \\[2pt]
+        $v_{max}$ & Maximum locomotion velocity during locomotion. \\[2pt]
+        $\tau^*$ & Motor rated torque. \\[2pt]
+        $\tau_{stall}$ & Motor stall torque. \\[2pt]
+        $\omega^*$ & Motor rated speed. \\[2pt]
+        $a_i$ & DH $a$ parameter of link $i$. \\[2pt]
+        $\alpha_i$ & DH $\alpha$ parameter of link $i$. \\[2pt]
+        $d_i$ & DH $d$ parameter of link $i$. \\[2pt]
+        $\theta_i$ & DH $\theta$ parameter of link $i$. \\[2pt]
+        $\theta_{offset,i}$ & DH initial offset of $\theta$ of link $i$. \\[2pt]
+        $SSM_\%$ & normalized percentage SSM index. 
+        
+    \end{tabular}
+\end{table}

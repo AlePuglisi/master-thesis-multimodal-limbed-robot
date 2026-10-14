@@ -1,0 +1,2072 @@
+% Encoding: UTF-8
+
+%% INTRODUCTION PAPERS%% 
+@ARTICLE{ImpedanceControl,
+  author={Arevalo, Juan Carlos and Garcia, Elena},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)}, 
+  title={Impedance Control for Legged Robots: An Insight Into the Concepts Involved}, 
+  year={2012},
+  volume={42},
+  number={6},
+  pages={1400-1411},
+  keywords={Impedance;Legged locomotion;Stability analysis;Service robots;Robot kinematics;Contact;impedance control;legged robots},
+  doi={10.1109/TSMCC.2012.2187190}}
+
+@misc{JST_IMPACT,
+  author       = {Japan Science and Technology Agency},
+  title        = {革新的研究開発推進プログラム IMPACT: プログラム07 深海資源探査技術開発プログラム},
+  url          = {https://www.jst.go.jp/impact/program/07.html},
+}
+
+@article{legged-wheeled,
+author = {Bjelonic, M. and Sankar, P. K. and Bellicoso, C. D. and Vallery, H. and Hutter, M.},
+title = {Rolling in the Deep – Hybrid Locomotion for Wheeled-Legged Robots Using Online Trajectory Optimization},
+journal = {IEEE Robotics and Automation Letters</em>, vol. 5, no. 2, pp. 3626-3633, April 2020},
+year = {2020},
+doi = {10.1109/LRA.2020.2979661},
+keywords = {Wheels;Legged locomotion;Motion planning;Splines (mathematics);Optimization;Path planning;Optimal control;Mobile robots;Legged robots;wheeled robots;motion and path planning;optimization and optimal control},
+}
+
+@article{QWhex,
+author = {Zhang, Guoteng and Ma, Shugen and Liu, Jinguo and Zeng, Xianwu and Kong, Lingyu and Li, Yibin},
+title = {Q-Whex: A simple and highly mobile quasi-wheeled hexapod robot},
+journal = {Journal of Field Robotics},
+volume = {40},
+number = {6},
+pages = {1444-1459},
+keywords = {hexapod robot, legged locomotion, quasi-wheel, wheeled-like smooth ride},
+doi = {https://doi.org/10.1002/rob.22186},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22186},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.22186},
+abstract = {Abstract This paper presents the design and control of Q-Whex, an untethered, quasi-wheeled hexapod robot. Q-Whex has only six actuators—one motor located at each hip—achieving mechanical simplicity that promotes reliable and robust operation in real-world tasks. All of the robot's mechanical parts are simply fabricated with carbon fiber plates, which makes the robot very easy to make. Q-Whex is capable of performing wheeled-like smooth rides over flat ground with a tripod gait, and thereby prevent the common problem of trunk fluctuations in legged-wheel robots. It is also able to traverse height variations well exceeding its trunk clearance. The performance of Q-Whex is evaluated in various scenarios, including driving and turning over flat terrains, ramp-riding, step-crossing, stair-climbing, and irregular terrain-traversing.},
+year = {2023}
+}
+@article{suctionfoottip,
+author="HIROSE, S.",
+title="Ceiling walking of quadruped wall climbing robot NINJA-II",
+journal="Proc. 1st Int. Conf. on Climbing and Walking Robots, Brussels, 1998",
+year="1998",
+pages="143-147",
+URL="https://cir.nii.ac.jp/crid/1572824501055950976"
+}
+
+@InProceedings{MAGNEKO,
+author="Leuthard, Stefan
+and Eugster, Timo
+and Faesch, Nicolas
+and Feingold, Riccardo
+and Flynn, Connor
+and Fritsche, Michael
+and H{\"u}rlimann, Nicolas
+and Morbach, Elena
+and Tischhauser, Fabian
+and M{\"u}ller, Matthias
+and Montenegro, Markus
+and Schelbert, Valerio
+and Chiu, Jia-Ruei
+and Arm, Philip
+and Hutter, Marco",
+editor="Berns, Karsten
+and Tokhi, Mohammad Osman
+and Roennau, Arne
+and Silva, Manuel F.
+and Dillmann, R{\"u}diger",
+title="Magnecko: Design and Control of a Quadrupedal Magnetic Climbing Robot",
+booktitle="Walking Robots into Real World",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="55--67",
+abstract="Climbing robots hold significant promise for applications such as industrial inspection and maintenance, particularly in hazardous or hard-to-reach environments. This paper describes the quadrupedal climbing robot Magnecko, developed with the major goal of providing a research platform for legged climbing locomotion. With its 12 actuated degrees of freedom arranged in an insect-style joint configuration, Magnecko's high manipulability and high range of motion allow it to handle challenging environments like overcoming concave {\$}{\$}90^{\backslash}circ {\$}{\$}90∘corners. A model predictive controller enables Magnecko to crawl on the ground, on horizontal overhangs, and on vertical walls. Thanks to the custom actuators and the electro-permanent magnets that are used for adhesion on ferrous surfaces, the system is powerful enough to carry additional payloads of at least 65{\%} of its own weight in all orientations. The Magnecko platform serves as a foundation for climbing locomotion in complex three-dimensional environments.",
+isbn="978-3-031-71301-9"
+}
+
+
+@article{MultimodalityROBOTS,
+title = {Multimodality robotic systems: Integrated combined legged-aerial mobility for subterranean search-and-rescue},
+journal = {Robotics and Autonomous Systems},
+volume = {154},
+pages = {104134},
+year = {2022},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2022.104134},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889022000756},
+author = {Björn Lindqvist and Samuel Karlsson and Anton Koval and Ilias Tevetzidis and Jakub Haluška and Christoforos Kanellakis and Ali-akbar Agha-mohammadi and George Nikolakopoulos},
+keywords = {Field robotics, Search-and-rescue robotics, Unmanned aerial vehicles, Quadruped robots, Multimodality robots, Subterranean exploration},
+abstract = {This work presents a field-hardened autonomous multimodal legged-aerial robotic system for subterranean exploration, extending a legged robot to be the carrier of an aerial platform capable of a rapid deployment in search-and-rescue scenarios. The driving force for developing such robotic configurations are the requirements for large-scale and long-term missions, where the payload capacity and long battery life of the legged robot is combined and integrated with the agile motion of the aerial agent. The multimodal robot is structured around the quadruped Boston Dynamics Spot, enhanced with a custom configured autonomy sensor payload as well as a UAV carrier platform, while the aerial agent is a custom built quadcopter. This work presents the novel design and hardware implementation as well as the onboard sensor suites. Moreover it establishes the overall autonomy architecture in a unified supervision approach while respecting each locomotion modality, including guidance, navigation, perception, state estimation, and control capabilities with a focus on rapid deployment and efficient exploration. The robotic system complete architecture is evaluated in real subterranean tunnel areas, in multiple fully autonomous search-and-rescue missions with the goal of identifying and locating objects of interest within the subterranean environment.}
+}
+
+@inproceedings{UnstructuredHOW,
+  title={How Can Robots Succeed in Unstructured Environments ? Blind Submission},
+  author={},
+  year={2008},
+  url={https://api.semanticscholar.org/CorpusID:14390138}
+}
+@misc{TRADR,
+  author = {{TRADR Project}},
+  title = {TRADR - Long-Term Human-Robot Teaming for Disaster Response},
+  url = {https://www.tradr-project.eu/},
+}
+
+@article{TerrainTraversability,
+  title={A Survey on Terrain Traversability Analysis for Autonomous Ground Vehicles: Methods, Sensors, and Challenges},
+  author={Paulo Borges and Thierry Peynot and Sisi Liang and Bilal Arain and Matt Wildie and Melih Minareci and Serge Lichman and Garima Samvedi and Inkyu Sa and Nicolas Hudson and Michael Milford and Peyman Moghadam and Peter Corke},
+  journal={Field Robotics},
+  year={2022},
+  volume={2},
+  pages={1567-1627},
+  url={https://api.semanticscholar.org/CorpusID:250597832}
+}
+@ARTICLE{Vulcanic_Survey,
+  author={Muscato, G. and Bonaccorso, F. and Cantelli, L. and Longo, D. and Melita, C.D.},
+  journal={IEEE Robotics \& Automation Magazine}, 
+  title={Volcanic Environments: Robots for Exploration and Measurement}, 
+  year={2012},
+  volume={19},
+  number={1},
+  pages={40-49},
+  keywords={Volcanoes;Mobile robots;Geologic measurements;Geophysical measurements;Vents},
+  doi={10.1109/MRA.2011.2181684}}
+
+@misc{WHOI_ECHO,
+  author    = {{Woods Hole Oceanographic Institution}},
+  title     = {Up Close and Personal},
+  year      = {2023},
+  month     = {August},
+  day       = {30},
+  url       = {https://www.whoi.edu/oceanus/feature/up-close-and-personal/},
+  note      = {Accessed: 2025-03-01}
+}
+@article{EX1,
+   title={Enabling Faster Locomotion of Planetary Rovers With a Mechanically-Hybrid Suspension},
+   volume={9},
+   ISSN={2377-3774},
+   url={http://dx.doi.org/10.1109/LRA.2023.3335769},
+   DOI={10.1109/lra.2023.3335769},
+   number={1},
+   journal={IEEE Robotics and Automation Letters},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Rodríguez-Martínez, David and Uno, Kentaro and Sawa, Kenta and Uda, Masahiro and Kudo, Gen and Diaz, Gustavo Hernan and Umemura, Ayumi and Santra, Shreya and Yoshida, Kazuya},
+   year={2024},
+   month=jan, pages={619–626} }
+
+@InProceedings{FieldRobots,
+author="Thorpe, Chuck
+and Durrant-Whyte, Hugh",
+editor="Jarvis, Raymond Austin
+and Zelinsky, Alexander",
+title="Field Robots",
+booktitle="Robotics Research",
+year="2003",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="329--340",
+abstract="Field Robots are machines that work in unstructured environments, including un- der water, in mines, in forests and on farms, and in the air. These applications involve both advanced ideas in robotics and careful attention to engineering details. This paper discusses the overall challenges of field robotics and the current state of the art. The paper is not a thor- ough survey, nor a tutorial; but is instead intended to serve as a discussion starter for further design and development.",
+isbn="978-3-540-36460-3"
+}
+
+@article{ROBOVOLC,
+  title     = {ROBOVOLC: a robot for volcano exploration result of first test campaign},
+  author    = {Muscato, G. and Caltabiano, D. and Guccione, S. and Longo, D. and Coltelli, M. and Cristaldi, A. and Pecora, E. and Sacco, V. and Sim, P. and Virk, G. S. and Briole, P. and Semerano, A. and White, T.},
+  journal   = {Industrial Robot: An International Journal},
+  volume    = {30},
+  number    = {3},
+  pages     = {231--242},
+  year      = {2003},
+  publisher = {MCB UP Ltd},
+  doi       = {10.1108/01439910310473942},
+  url       = {https://doi.org/10.1108/01439910310473942},
+  issn      = {0143-991X}
+}
+
+@article{LeggedRealWorld,
+author = {Bellicoso, C. Dario and Bjelonic, Ma@article{Muscato2003ROBOVOLC,
+  title     = {ROBOVOLC: a robot for volcano exploration result of first test campaign},
+  author    = {Muscato, G. and Caltabiano, D. and Guccione, S. and Longo, D. and Coltelli, M. and Cristaldi, A. and Pecora, E. and Sacco, V. and Sim, P. and Virk, G. S. and Briole, P. and Semerano, A. and White, T.},
+  journal   = {Industrial Robot: An International Journal},
+  volume    = {30},
+  number    = {3},
+  pages     = {231--242},
+  year      = {2003},
+  publisher = {MCB UP Ltd},
+  doi       = {10.1108/01439910310473942},
+  url       = {https://doi.org/10.1108/01439910310473942},
+  issn      = {0143-991X}
+}rko and Wellhausen, Lorenz and Holtmann, Kai and Günther, Fabian and Tranzatto, Marco and Fankhauser, Péter and Hutter, Marco},
+title = {Advances in real-world applications for legged robots},
+journal = {Journal of Field Robotics},
+volume = {35},
+number = {8},
+pages = {1311-1326},
+doi = {https://doi.org/10.1002/rob.21839},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21839},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21839},
+abstract = {Abstract This paper provides insight into the application of the quadrupedal robot ANYmal in outdoor missions of industrial inspection (autonomous robot for gas and oil sites [ARGOS] challenge) and search and rescue (European Robotics League (ERL) Emergency Robots). In both competitions, the legged robot had to autonomously and semiautonomously navigate in real-world scenarios to complete high-level tasks such as inspection and payload delivery. In the ARGOS competition, ANYmal used a rotating light detection and ranging sensor to localize on the industrial site and map the terrain and obstacles around the robot. In the ERL competition, additional real-time kinematic–global positioning system was used to colocalize the legged robot with respect to a micro aerial vehicle that creates maps from the aerial view. The high mobility of legged robots allows overcoming large obstacles, for example, steps and stairs, with statically and dynamically stable gaits. Moreover, the versatile machine can adapt its posture for inspection and payload delivery. The paper concludes with insight into the general learnings from the ARGOS and ERL challenges.},
+year = {2018}
+}
+
+
+
+@Inbook{FukushimaPlant,
+author="Yoshida, Tomoaki
+and Nagatani, Keiji
+and Tadokoro, Satoshi
+and Nishimura, Takeshi
+and Koyanagi, Eiji",
+editor="Yoshida, Kazuya
+and Tadokoro, Satoshi",
+title="Improvements to the Rescue Robot Quince Toward Future Indoor Surveillance Missions in the Fukushima Daiichi Nuclear Power Plant",
+bookTitle="Field and Service Robotics: Results of the 8th International Conference",
+year="2014",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="19--32",
+abstract="On March 11 2011, a huge earthquake and tsunami hit eastern Japan, and four reactors in the Fukushima Daiichi Nuclear Power Plant were seriously damaged. Because of high radiation levels around the damaged reactor buildings, robotic surveillance were demanded to respond to the accident. On June 20, we delivered our rescue robot named Quince which is a tracked vehicle with four sub-tracks, to Tokyo Electric Power Company (TEPCO) for damage inspection missions in the reactor buildings. Quince needed some enhancements such as a dosimeter, additional cameras, and a cable communication system for these missions. Furthermore, stair climbing ability and user interface was implemented for easy operation for novice operators. Quince have conducted six missions in the damaged reactor building. In the sixth mission on October 20, it reached to the topmost floor of the reactor building of unit 2. However, the communication cable was damaged on the way back, and Quince was left on the third floor of the reactor building. Therefore, an alternative Quince is requested recently. In this paper, we report the situation of the missions for Quince, and introduce enhancements of the next Quince for future missions.",
+isbn="978-3-642-40686-7",
+doi="10.1007/978-3-642-40686-7_2",
+url="https://doi.org/10.1007/978-3-642-40686-7_2"
+}
+@inproceedings{Quince,
+  title={Quince : A Collaborative Mobile Robotic Platform for Rescue Robots Research and Development},
+  author={Eric Rohmer and Tomoaki Yoshida and Kazunori Ohno and Keiji Nagatani and Satoshi Tadokoro and Eiji Konayagi},
+  year={2010},
+  url={https://api.semanticscholar.org/CorpusID:110402936}
+}
+
+@article{WheelFly,
+  title={Multi-Modal Mobility Morphobot (M4) with appendage repurposing for locomotion plasticity enhancement},
+  author={Eric Sihite and Arash Kalantari and Reza Nemovi and Alireza Ramezani and Morteza Gharib},
+  journal={Nature Communications},
+  year={2023},
+  volume={14},
+  url={https://api.semanticscholar.org/CorpusID:259273393}
+}
+
+@inproceedings{LegsTracks_Azimut,
+  title={Co-Design of AZIMUT: A Multi-Modal Robotic Platform},
+  author={François Michaud and Martin Arsenault and Yann Bergeron and Richard Cadrin and Fr{\'e}d{\'e}ric Gagnon and Marc-Antoine Legault and Mathieu Millette and Jean-François Par{\'e} and Marie-Christine Tremblay and Dominic L{\'e}tourneau and Pierre Lepage and Yan Morin and Serge Caron and Jonathan Bisson},
+  year={2003},
+  url={https://api.semanticscholar.org/CorpusID:18842145}
+}
+@article{Hexapod_LegWheeled,
+author = {Xu, Kun and Qin, Ripeng and Chen, Cheng and Dong, Guiyu and Chen, Jiawei and Ding, Xilun},
+title = {Design and multimodal locomotion plan of a hexapod robot with improved knee joints},
+journal = {Journal of Field Robotics},
+volume = {41},
+number = {5},
+pages = {1279-1296},
+keywords = {hexapod robot, leg-arm reuse, locomotion planning, mobile operation, multimodal, multiparallel quadrilateral mechanism, wheeled-leg hybrid},
+doi = {https://doi.org/10.1002/rob.22324},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22324},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.22324},
+abstract = {Abstract Hexapod robots represent complex and highly redundant robotic systems capable of handling various tasks in extreme environments, such as planetary exploration and disaster response. To enhance the terrain adaptability and maneuverability of hexapod robots, we present a novel multimodal hexapod robot in this research. Our multimodal hexapod robot design incorporates knee joints with an improved multiparallel quadrilateral transmission mechanism, addressing singularity issues commonly encountered in legged robots. This enhancement not only improves the mechanical transmission characteristics of the knee joints but also increases the workspace of a single leg to achieve leg-arm reuse functionality. In the presence of flat and structured terrain, the robot seamlessly switches to a wheeled locomotion mode, enabling swift traversal. Conversely, when faced with rough and unstructured terrain, it transitions into a legged mode, employing adaptive gait stability to navigate effectively. A novel operational mode in which the hexapod robot utilizes four legs for body support, while the remaining two legs are repurposed as arms is proposed. This innovative approach empowers the hexapod robot to perform dual-arm manipulation without the need for additional degrees of freedom for the manipulator. To validate the effectiveness of our designed hexapod robot and multimodal motion planning algorithm, comprehensive experimental testing has been conducted, demonstrating the practicality and versatility of our system.},
+year = {2024}
+}
+
+@article{MAMMOTH_structure,
+author = {Reid, William and Fitch, Robert and Göktoğan, Ali H. and Sukkarieh, Salah},
+title = {Sampling-based hierarchical motion planning for a reconfigurable wheel-on-leg planetary analogue exploration rover},
+journal = {Journal of Field Robotics},
+volume = {37},
+number = {5},
+pages = {786-811},
+keywords = {legged robots, planetary robotics, wheeled robots},
+doi = {https://doi.org/10.1002/rob.21894},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21894},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21894},
+abstract = {Abstract Reconfigurable mobile planetary rovers are versatile platforms that may safely traverse cluttered environments by morphing their physical geometry. Planning paths for these adaptive robots is challenging due to their many degrees of freedom, and the need to consider potentially continuous platform reconfiguration along the length of the path. We propose a novel hierarchical structure for asymptotically optimal (AO) sampling-based planners and specifically apply it to the state-of-the-art Fast Marching Tree (FMT*) AO planner. Our algorithm assumes a decomposition of the full configuration space into multiple subspaces, and begins by rapidly finding a set of paths through one such subspace. This set of solutions is used to generate a biased sampling distribution, which is then explored to find a solution in the full configuration space. This technique provides a novel way to incorporate prior knowledge of subspaces to efficiently bias search within existing AO sampling-based planners. Importantly, probabilistic completeness and asymptotic optimality are preserved. Experimental results in simulation are provided that benchmark the algorithm against state-of-the-art sampling-based planners without the hierarchical variation. Additional experimental results performed with a physical wheel-on-leg platform demonstrate application to planetary rover mobility and showcase how constraints such as actuator failures and sensor pointing may be easily incorporated into the planning problem. In minimizing an energy objective that combines an approximation of the mechanical work required for platform locomotion with that required for reconfiguration, the planner produces intuitive behaviors where the robot dynamically adjusts its footprint, varies its height, and clambers over obstacles using legged locomotion. These results illustrate the generality of the planner in exploiting the platform's mechanical ability to fluidly transition between various physical geometric configurations, and wheeled/legged locomotion modes, without the need for predefined configurations.},
+year = {2020}
+}
+
+
+@article{SearchandRescue,
+author = {Delmerico, Jeffrey and Mintchev, Stefano and Giusti, Alessandro and Gromov, Boris and Melo, Kamilo and Horvat, Tomislav and Cadena, Cesar and Hutter, Marco and Ijspeert, Auke and Floreano, Dario and Gambardella, Luca M. and Siegwart, Roland and Scaramuzza, Davide},
+title = {The current state and future outlook of rescue robotics},
+journal = {Journal of Field Robotics},
+volume = {36},
+number = {7},
+pages = {1171-1191},
+keywords = {emergency response, extreme environments, search and rescue robotics},
+doi = {https://doi.org/10.1002/rob.21887},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21887},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21887},
+abstract = {Abstract Robotic technologies, whether they are remotely operated vehicles, autonomous agents, assistive devices, or novel control interfaces, offer many promising capabilities for deployment in real-world environments. Postdisaster scenarios are a particularly relevant target for applying such technologies, due to the challenging conditions faced by rescue workers and the possibility to increase their efficacy while decreasing the risks they face. However, field-deployable technologies for rescue work have requirements for robustness, speed, versatility, and ease of use that may not be matched by the state of the art in robotics research. This paper aims to survey the current state of the art in ground and aerial robots, marine and amphibious systems, and human–robot control interfaces and assess the readiness of these technologies with respect to the needs of first responders and disaster recovery efforts. We have gathered expert opinions from emergency response stakeholders and researchers who conduct field deployments with them to understand these needs, and we present this assessment as a way to guide future research toward technologies that will make an impact in real-world disaster response and recovery.},
+year = {2019}
+}
+
+@inproceedings{Amatrice,
+  title     = {Deployment of ground and aerial robots in earthquake-struck Amatrice in Italy (brief report)},
+  author    = {Kruijff-Korbayov{\'a}, Ivana and Freda, Luigi and Gianni, Mario and Ntouskos, Valsamis and Hlav{\'a}{\v{c}}, V{\'a}clav and Kubelka, Vladimir and Zimmermann, Erik and Surmann, Hartmut and Dulic, Kresimir and Rottner, Wolfgang and others},
+  booktitle = {2016 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)},
+  pages     = {278--279},
+  year      = {2016},
+  organization = {IEEE}
+}
+
+
+@misc{WAREC_Site,
+  author       = {Takanishi Laboratory},
+  title        = {Rescue Robot Research},
+  url          = {http://www.takanishi.mech.waseda.ac.jp/top/research/rescue/index.htm},
+}
+
+@Inbook{WAREC1_book,
+author = {Hashimoto, Kenji and Matsuzawa, Takashi and Sun, Xiao and Fujiwara, Tomofumi and Wang, Xixun and Konishi, Yasuaki and Sato, Noritaka and Endo, Takahiro and Matsuno, Fumitoshi and Kubota, Naoyuki and Toda, Yuichiro and Takesue, Naoyuki and Wada, Kazuyoshi and Mouri, Tetsuya and Kawasaki, Haruhisa and Namiki, Akio and Liu, Yang and Takanishi, Atsuo and Tadokoro, Satoshi},
+editor="Tadokoro, Satoshi",
+title="WAREC-1 -- A Four-Limbed Robot with Advanced Locomotion and Manipulation Capabilities",
+bookTitle="Disaster Robotics: Results from the ImPACT Tough Robotics Challenge",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="327--397",
+abstract="This chapter introduces a novel four-limbed robot, WAREC-1, that has advanced locomotion and manipulation capability with versatile locomotion styles. At disaster sites, there are various types of environments through which a robot must traverse, such as rough terrain filled with rubbles, narrow places, stairs, and vertical ladders. WAREC-1 moves in hazardous environments by transitioning among various locomotion styles, such as bipedal/quadrupedal walking, crawling, and ladder climbing. WAREC-1 has identically structured limbs with 28 degrees of freedom (DoF) in total with 7-DoFs in each limb. The robot is 1,690 mm tall when standing on two limbs, and weighs 155 kg. We developed three types of actuator units with hollow structures to pass the wiring inside the joints of WAREC-1, which enables the robot to move on rubble piles by creeping on its stomach. Main contributions of our research are following five topics: (1) Development of a four-limbed robot, WAREC-1. (2) Simultaneous localization and mapping (SLAM) using laser range sensor array. (3) Teleoperation system using past image records to generate a third-person view. (4) High-power and low-energy hand. (5) Lightweight master system for telemanipulation and an assist control system for improving the maneuverability of master-slave systems.",
+isbn="978-3-030-05321-5",
+doi="10.1007/978-3-030-05321-5_7",
+url="https://doi.org/10.1007/978-3-030-05321-5_7"
+}
+
+
+@article{WAREC1,
+  title={WAREC-1 — A four-limbed robot having high locomotion ability with versatility in locomotion styles},
+  author={Kenji Hashimoto and Shunsuke Kimura and Nobuaki Sakai and Shinya Hamamoto and Ayanori Koizumi and Xiao Sun and Takashi Matsuzawa and Tomotaka Teramachi and Yuki Yoshida and Asaki Imai and Kengo Kumagai and Takanobu Matsubara and Koki Yamaguchi and Gan Ma and Atsuo Takanishi},
+  journal={2017 IEEE International Symposium on Safety, Security and Rescue Robotics (SSRR)},
+  year={2017},
+  pages={172-178},
+  url={https://api.semanticscholar.org/CorpusID:1595187}
+}
+
+@article{WAREC1R,
+title = "Limb Stiffness Improvement of the Robot WAREC-1R for a Faster and Stable New Ladder Climbing Gait",
+abstract = "Ladder climbing is a relatively new but practical locomotion style for robots. Unfortunately, due to their size and weight, ladder climbing by human-sized robots developed so far is struggling with the speedup of ladder climbing motion itself. Therefore, in this paper, a new ladder climbing gait for the robot WAREC-1R is proposed by the authors, which is both faster than the former ones and stable. However, to realize such a gait, a point that has to be taken into consideration is the deformation caused by the self-weight of the robot. To deal with this issue, extra hardware (sensor) and software (position and force control) systems and extra time for sensing and calculation were required. For a complete solution without any complicated systems and time only for deformation compensation, limb stiffness improvement plan by the minimal design change of mechanical parts of the robot is also proposed by the authors, with a thorough study about deformation distribution in the robot. With redesigned parts, ladder climbing experiments by WAREC-1R proved that both the new ladder climbing gait and the limb stiffness improvement are successful, and the reduced deformation is very close to the estimated value as well.",
+keywords = "Bionic robot, Finite element analysis, Gait, Ladder climbing, Legged robot, Stiffness improvement",
+author = "Xiao Sun and Akira Ito and Takashi Matsuzawa and Atsuo Takanishi",
+note = "Funding Information: This research was funded by ImPACT TRC Program of Council for Science, Technology and Innovation (Cabinet Office, Government of Japan). This study was conducted with the support of Research Institute for Science and Engineering, Waseda University; Future Robotics Organization, Waseda University, and as a part of the humanoid project at the Humanoid Robotics Institute, Waseda University. This research was also partially supported by SolidWorks Japan K. K; DYDEN Corporation; and KITO Corporation whom we thank for their financial and technical support. Publisher Copyright: {\textcopyright} 2022, Jilin University.",
+year = "2023",
+month = jan,
+doi = "10.1007/s42235-022-00245-6",
+language = "English",
+volume = "20",
+pages = "57--68",
+journal = "Journal of Bionic Engineering",
+issn = "1672-6529",
+publisher = "Springer",
+number = "1",
+}
+@article{WAREC1R_drilling, 
+title={Assist system for remote manipulation of electric drills by the robot “WAREC-1R” using deep reinforcement learning}, 
+volume={40}, 
+DOI={10.1017/S0263574721000618}, 
+number={2}, 
+journal={Robotica}, 
+author={Sun, Xiao and Naito, Hiroshi and Namiki, Akio and Liu, Yang and Matsuzawa, Takashi and Takanishi, Atsuo},
+year={2022}, 
+pages={365–376}} 
+
+@article{WheeledLeggedAMAZONFOREST,
+author = {Freitas, Gustavo and Gleizer, Gabriel and Lizarralde, Fernando and Hsu, Liu and dos Reis, Ney Robinson Salvi},
+title = {Kinematic reconfigurability control for an environmental mobile robot operating in the Amazon rain forest},
+journal = {Journal of Field Robotics},
+volume = {27},
+number = {2},
+pages = {197-216},
+doi = {https://doi.org/10.1002/rob.20334},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.20334},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20334},
+abstract = {Abstract This paper addresses the active control problem of reconfigurable mobile robots on irregular terrain. Different kinematic control strategies to improve robot mobility are proposed based on (a) ground clearance and orientation, (b) ground clearance and stability margin, and (c) wheel traction efficiency. Owing to conflicting objectives associated with these strategies, a multi-objective optimization approach is formulated to determine a set of optimal solutions and establish a trade-off optimal solution. The proposed control is validated through numerical simulations and experimental tests using an amphibious wheel-legged robot, named Environmental Hybrid Robot, designed for environmental monitoring in the Amazon rain forest. © 2010 Wiley Periodicals, Inc.},
+year = {2010}
+}
+
+
+@article{WheleedLeggedLUNAR,
+author = {Roehr, Thomas M. and Cordes, Florian and Kirchner, Frank},
+title = {Reconfigurable Integrated Multirobot Exploration System (RIMRES): Heterogeneous Modular Reconfigurable Robots for Space Exploration},
+journal = {Journal of Field Robotics},
+volume = {31},
+number = {1},
+pages = {3-34},
+doi = {https://doi.org/10.1002/rob.21477},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21477},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21477},
+abstract = {This paper presents the multirobot team RIMRES (Reconfigurable Integrated Multirobot Exploration System), which is comprised of a wheeled rover, a legged scout, and several immobile payload items. The heterogeneous systems are employed to demonstrate the feasibility of reconfigurable and modular systems for lunar polar crater exploration missions. All systems have been designed with a common electromechanical interface, allowing to tightly interconnect all these systems to a single system and also to form new electromechanical units. With the different strengths of the respective subsystems, a robust and flexible overall multirobot system is built up to tackle the, to some extent, contradictory requirements for an exploration mission in a crater environment. In RIMRES, the capability for reconfiguration is explicitly taken into account in the design phase of the system, leading to a high degree of flexibility for restructuring the overall multirobot system. To enable the systems' capabilities, the same distributed control software architecture is applied to rover, scout, and payload items, allowing for semiautonomous cooperative actions as well as full manual control by a mission operator. For validation purposes, the authors present the results of two critical parts of the aspired mission, the deployment of a payload and the autonomous docking procedure between the legged scout robot and the wheeled rover. This allows us to illustrate the feasibility of complex, cooperative, and autonomous reconfiguration maneuvers with the developed reconfigurable team of robots.},
+year = {2014}
+}
+
+@misc{SCALER,
+      title={SCALER: Versatile Multi-Limbed Robot for Free-Climbing in Extreme Terrains}, 
+      author={Yusuke Tanaka and Yuki Shirai and Alexander Schperberg and Xuan Lin and Dennis Hong},
+      year={2024},
+      eprint={2312.04856},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2312.04856}, 
+}
+
+@INPROCEEDINGS{LEMUR3,
+  author={Parness, Aaron and Abcouwer, Neil and Fuller, Christine and Wiltsie, Nicholas and Nash, Jeremy and Kennedy, Brett},
+  booktitle={2017 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={LEMUR 3: A limbed climbing robot for extreme terrain mobility in space}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={5467-5473},
+  keywords={Grippers;Actuators;Shafts;Mobile robots;Torque;Gears},
+  doi={10.1109/ICRA.2017.7989643}}
+
+@misc{SCARE_gripper,
+      title={Soft Gripping System for Space Exploration Legged Robots}, 
+      author={Arthur Candalot and Malik-Manel Hashim and Brigid Hickey and Mickael Laine and Mitch Hunter-Scullion and Kazuya Yoshida},
+      year={2024},
+      eprint={2411.05482},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2411.05482}, 
+}
+
+@misc{SCAR-E,
+  doi = {10.48550/ARXIV.2411.05482},
+  
+  url = {https://arxiv.org/abs/2411.05482},
+  
+  author = {Candalot, Arthur and Hashim, Malik-Manel and Hickey, Brigid and Laine, Mickael and Hunter-Scullion, Mitch and Yoshida, Kazuya},
+  
+  keywords = {Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Soft Gripping System for Space Exploration Legged Robots},
+  
+  publisher = {arXiv},
+  
+  year = {2024},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+
+@patent{unimate,
+  author    = {George C. Devol and Joseph F. Engelberger},
+  title     = {Programmed article handling machine},
+  number    = {US 3,141,746},
+  year      = {1964},
+  month     = {Aug},
+  note      = {Filed in 1956, issued in 1964},
+  url       = {https://patents.google.com/patent/US3141746A/en},
+}
+
+@article{McGhee,
+  title={On the stability properties of quadruped creeping gaits},
+  author={Robert B. McGhee and Andrew A. Frank},
+  journal={Bellman Prize in Mathematical Biosciences},
+  year={1968},
+  volume={3},
+  pages={331-351},
+  url={https://api.semanticscholar.org/CorpusID:120962927}
+}
+@ARTICLE{McGheeRoughLocomotion,
+  author={Mcghee, Robert B. and Iswandhi, Geoffrey I.},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics}, 
+  title={Adaptive Locomotion of a Multilegged Robot over Rough Terrain}, 
+  year={1979},
+  volume={9},
+  number={4},
+  pages={176-182},
+  keywords={Vehicles;Legged locomotion;Mobile robots;Robot kinematics;Character recognition;Animals;Application software;Biological systems;Biology computing;Heuristic algorithms},
+  doi={10.1109/TSMC.1979.4310180}}
+
+@inproceedings{Todd,
+  title={Walking machines : an introduction to legged robots},
+  author={D. J. Todd},
+  year={1985},
+  url={https://api.semanticscholar.org/CorpusID:109626168}
+}
+
+@article{Raibert,
+  title={Legged Robots That Balance},
+  author={Marc H. Raibert and Ernest R. Tello},
+  journal={IEEE Expert},
+  year={1986},
+  volume={1},
+  pages={89-89},
+  url={https://api.semanticscholar.org/CorpusID:10520163}
+}
+
+@inproceedings{Koyachi,
+  series = {ICAR-93},
+  title = {Integrated limb mechanism of manipulation and locomotion for dismantling robot-basic concept for control and mechanism},
+  url = {http://dx.doi.org/10.1109/ICAR.1993.337213},
+  DOI = {10.1109/icar.1993.337213},
+  booktitle = {Proceedings of 1993 IEEE/Tsukuba International Workshop on Advanced Robotics},
+  publisher = {IEEE},
+  year = {1993},
+  author = {Koyachi,  N. and Arai,  T. and Adachi,  H. and Itoh,  Y.},
+  pages = {81–84},
+  collection = {ICAR-93}
+}
+@INPROCEEDINGS{Koyachi2,
+  author={Arai, T. and Koyachi, N. and Adachi, H. and Homma, K.},
+  booktitle={Proceedings of 1995 IEEE International Conference on Robotics and Automation}, 
+  title={Integrated arm and leg mechanism and its kinematic analysis}, 
+  year={1995},
+  volume={1},
+  number={},
+  pages={994-999 vol.1},
+  keywords={Leg;Robot kinematics;Legged locomotion;Manipulators;Motion control;Analytical models;Production facilities;Humans;Laboratories;Motion analysis},
+  doi={10.1109/ROBOT.1995.525412}}
+
+@conference{Koyachi3,
+title = {Development of multi-limb robot with omnidirectional manipulability and mobility},
+author = "Y. Takahashi and T. Arai and Y. Mae and K. Inoue and N. Koyachi",
+year = "2000",
+language = "English",
+pages = "2012--2017",
+note = "2000 IEEE/RSJ International Conference on Intelligent Robots and Systems ; Conference date: 31-10-2000 Through 05-11-2000",
+}
+
+
+@book{Siciliano,
+author = {Siciliano, Bruno and Sciavicco, Lorenzo and Villani, Luigi and Oriolo, Giuseppe},
+title = {Robotics: Modelling, Planning and Control},
+year = {2010},
+isbn = {1849966346},
+publisher = {Springer Publishing Company, Incorporated},
+}
+
+@Inbook{Robotics1,
+author="Jazar, Reza N.",
+title="Introduction",
+bookTitle="Theory of Applied Robotics: Kinematics, Dynamics, and Control",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1--34",
+isbn="978-3-030-93220-6",
+doi="10.1007/978-3-030-93220-6_1",
+url="https://doi.org/10.1007/978-3-030-93220-6_1"
+}
+
+@incollection{Legged,
+  title = {{Legged Robots}},
+  author = {Semini, Claudio and Wieber, Pierre-Brice},
+  url = {https://hal.science/hal-02461604},
+  booktitle = {{Encyclopedia of Robotics}},
+  publisher = {{Springer}},
+  pages = {1-11},
+  year = {2020},
+  doi = {10.1007/978-3-642-41610-1\_59-1},
+  pdf = {https://hal.science/hal-02461604v1/file/LeggedRobots.pdf},
+}
+
+@article{Hirose1991,
+  title={Machine that can walk and climb on floors, walls and ceilings},
+  author={Shigeo Hirose and Akihiko Nagakubo and Ryousei Toyama},
+  journal={Fifth International Conference on Advanced Robotics 'Robots in Unstructured Environments},
+  year={1991},
+  pages={753-758 vol.1},
+  url={https://api.semanticscholar.org/CorpusID:38855282}
+}
+
+@article{HorizontaltoVertical,
+  title={Mechanical design of a quadruped robot for horizontal ground to vertical wall movement},
+  author={A Al-Salameh and Shamsudin H. M. Amin and Rosbi bin Mamat},
+  journal={2000 TENCON Proceedings. Intelligent Systems and Technologies for the New Millennium (Cat. No.00CH37119)},
+  year={2000},
+  volume={1},
+  pages={213-217 vol.1},
+  url={https://api.semanticscholar.org/CorpusID:62100829}
+}
+
+@article{Suction,
+  title={Development of a self-contained wall climbing robot with scanning type suction cups},
+  author={Tomoaki Yano and Shin Numao and Yukio Kitamura},
+  journal={Proceedings. 1998 IEEE/RSJ International Conference on Intelligent Robots and Systems. Innovations in Theory, Practice and Applications (Cat. No.98CH36190)},
+  year={1998},
+  volume={1},
+  pages={249-254 vol.1},
+  url={https://api.semanticscholar.org/CorpusID:24337800}
+}
+
+@ARTICLE{passiveSpineTohoku,
+  author={Nagaoka, Kenji and Minote, Hayato and Maruya, Kyohei and Shirai, Yuki and Yoshida, Kazuya and Hakamada, Takeshi and Sawada, Hirotaka and Kubota, Takashi},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Passive Spine Gripper for Free-Climbing Robot in Extreme Terrain}, 
+  year={2018},
+  volume={3},
+  number={3},
+  pages={1765-1770},
+  keywords={Grippers;Robots;Force;Rough surfaces;Surface roughness;Springs;Wrist;Space robotics and automation;climbing robots;grippers and other end-effectors},
+  doi={10.1109/LRA.2018.2794517}}
+
+@article{GrieelUda,
+  title={Development and Grasping Performance Evaluationof a Wheel-Gripper Transformable Mechanism},
+  author={Masahiro Uda and Kenta Sawa and Kentaro Uno and Takuya Kato and Li Zheng Travis Lim and Kazuya Yoshida},
+  journal={Journal of the Robotics Society of Japan},
+  volume={42},
+  number={6},
+  pages={580-583},
+  year={2024},
+  doi={10.7210/jrsj.42.580}
+}
+@PHDTHESIS{AnymalDocThesis,
+  title     = "Planning and control for hybrid locomotion of wheeled-legged robots",
+  author    = "Bjelonic, Marko",
+  publisher = "ETH Zurich",
+  year      =  2021
+}
+@inproceedings{climbing1,
+author = {Silva, Manuel and Tenreiro Machado, José and Tar, József},
+year = {2008},
+month = {12},
+pages = {127 - 132},
+title = {A Survey of Technologies for Climbing Robots Adhesion to Surfaces},
+journal = {ICCC 2008 - IEEE 6th International Conference on Computational Cybernetics, Proceedings},
+doi = {10.1109/ICCCYB.2008.4721392}
+}
+
+@article{WheelLegged,
+title = {Overview of structure and drive for wheel-legged robots},
+journal = {Robotics and Autonomous Systems},
+volume = {181},
+pages = {104777},
+year = {2024},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2024.104777},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889024001611},
+author = {Qixin Zhu and Xikang Guan and Bin Yu and Junhui Zhang and Kaixian Ba and Xinjie Li and Mengkai Xu and Xiangdong Kong},
+keywords = {Wheel-legged robot, Overview, Structure, Drive},
+}
+@INPROCEEDINGS{MAMMOTH,
+  author={Reid, William and Pérez-Grau, Francisco Javier and Göktoğan, Ali Haydar and Sukkarieh, Salah},
+  booktitle={2016 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Actively articulated suspension for a wheel-on-leg rover operating on a Martian analog surface}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={5596-5602},
+  keywords={Kinematics;Joints;Wheels;Jacobian matrices;Suspensions;Mobile robots},
+  doi={10.1109/ICRA.2016.7487777}}
+@inproceedings{RollerWalker,
+author = {Endo, G. and Hirose, Shigeo},
+year = {2000},
+month = {02},
+pages = {2808 - 2814 vol.3},
+title = {Study on Roller-Walker. Multi-mode Steering Control and Self-contained Locomotion.},
+volume = {3},
+isbn = {0-7803-5886-4},
+journal = {Proceedings - IEEE International Conference on Robotics and Automation},
+doi = {10.1109/ROBOT.2000.846453}
+}
+@INPROCEEDINGS{Armadillo,
+  author={Tadakuma, Kenjiro and Tadakuma, Riichiro and Maruyama, Akira and Rohmer, Eric and Nagatani, Keiji and Yoshida, Kazuya and Ming, Aiguo and Makoto, Shimojo and Higashimori, Mitsuru and Kaneko, Makoto},
+  booktitle={2009 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
+  title={Armadillo-inspired wheel-leg retractable module}, 
+  year={2009},
+  volume={},
+  number={},
+  pages={610-615},
+  keywords={Mobile robots;Wheels;Legged locomotion;Leg;Foot;Prototypes;Testing;Biomimetics;Mechanical factors;Research and development},
+  doi={10.1109/ROBIO.2009.5420604}}
+
+@inproceedings{CorkeMATLAB,
+  title={Robotics, Vision and Control - Fundamental Algorithms in MATLAB{\textregistered}},
+  author={Peter Corke},
+  booktitle={Springer Tracts in Advanced Robotics},
+  year={2011},
+  url={https://api.semanticscholar.org/CorpusID:19381082}
+}
+
+@book{RoboticMechanics,
+author = {Angeles, Jorge},
+title = {Fundamentals of Robotic Mechanical Systems: Theory, Methods, and Algorithms (Mechanical Engineering Series)},
+year = {2013},
+isbn = {3319018507},
+publisher = {Springer Publishing Company, Incorporated},
+edition = {4th ed. 2014},
+abstract = {The 4th edition includes updated and additional examples and exercises on the core fundamental concepts of mechanics, robots, and kinematics of serial robots. New images of CAD models and physical robots help to motivate concepts being introduced. Each chapter of the book can be read independently of others as it addresses a seperate issue in robotics.}
+}
+@ARTICLE{DenavitHartenberg,
+       author = {{Denavit}, J. and {Hartenberg}, R.~S.},
+        title = "{A Kinematic Notation for Lower-Pair Mechanisms Based on Matrices}",
+      journal = {Journal of Applied Mechanics},
+         year = 1955,
+        month = jun,
+       volume = {22},
+       number = {2},
+        pages = {215-221},
+          doi = {10.1115/1.4011045},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1955JAM....22..215D},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@misc{UR_DH_Parameters,
+  author       = {Universal Robots},
+  title        = {DH Parameters for Calculations of Kinematics and Dynamics},
+  year         = {2024},
+  url          = {https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/},
+}
+
+@misc{HyQ_website,
+  author       = {Istituto Italiano di Tecnologia (IIT)},
+  title        = {HyQReal Robot},
+  year         = {2025},
+  url          = {https://dls.iit.it/hyqreal},
+}
+
+@article{HyQpaper,
+  title={Mechanism, Actuation, Perception, and Control of Highly Dynamic Multilegged Robots: A Review},
+  author={Jun He and Feng Gao},
+  journal={Chinese Journal of Mechanical Engineering},
+  year={2020},
+  volume={33},
+  url={https://api.semanticscholar.org/CorpusID:226292307}
+}
+@misc{spot_website,
+  author       = {Boston Dynamics},
+  title        = {Spot Robot},
+  year         = {2025},
+  url          = {https://bostondynamics.com/products/spot/},
+}
+
+@INPROCEEDINGS{MOBILEMANIPULATOR,
+  author={Dieber, Bernhard and Breiling, Benjamin},
+  booktitle={2019 Third IEEE International Conference on Robotic Computing (IRC)}, 
+  title={Security Considerations in Modular Mobile Manipulation}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={70-77},
+  keywords={Security;Manipulators;Hardware;Software;Service robots;Computer architecture;security;robotics;ros;mobile manipulation;modularity},
+  doi={10.1109/IRC.2019.00019}}
+
+@INPROCEEDINGS{KUKA,
+  author={Bischoff, Rainer and Kurth, Johannes and Schreiber, Guenter and Koeppe, Ralf and Albu-Schaeffer, Alin and Beyer, Alexander and Eiberger, Oliver and Haddadin, Sami and Stemmer, Andreas and Grunwald, Gerhard and Hirzinger, Gerhard},
+  booktitle={ISR 2010 (41st International Symposium on Robotics) and ROBOTIK 2010 (6th German Conference on Robotics)}, 
+  title={The KUKA-DLR Lightweight Robot arm - a new reference platform for robotics research and manufacturing}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Service robots;Robot sensing systems;Joints;Programming;Collision avoidance},
+  doi={}}
+
+@Article{LegDH,
+AUTHOR = {Zhuang, Hong-Chao and Gao, Hai-Bo and Deng, Zong-Quan},
+TITLE = {Gait Planning Research for an Electrically Driven Large-Load-Ratio Six-Legged Robot},
+JOURNAL = {Applied Sciences},
+VOLUME = {7},
+YEAR = {2017},
+NUMBER = {3},
+ARTICLE-NUMBER = {296},
+URL = {https://www.mdpi.com/2076-3417/7/3/296},
+ISSN = {2076-3417},
+DOI = {10.3390/app7030296}
+}
+
+@article{ABBParallel,
+title = {Identification of physically consistent dynamics parameter of the ABB IRB 360-6/1600 delta robot and its use for time-optimal motion planning under consideration of constraint forces},
+journal = {Robotics and Autonomous Systems},
+volume = {182},
+pages = {104823},
+year = {2024},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2024.104823},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889024002070},
+author = {Daniel Gnad and Hubert Gattringer and Andreas Müller and Wolfgang Höbarth and Roland Riepl and Lukas Meßner},
+keywords = {Parallel robot, Inverse dynamics identification, Physically consistent parameter identification, Time-optimal motion planning, Constraint force},
+}
+@article{FloatingBase1,
+author = {Mingmin, Liu and Qu, Daokui and Xu, Fang and Zou, Fengshan and Di, Pei and Tang, Chong},
+year = {2019},
+month = {03},
+pages = {1335},
+title = {Quadrupedal Robots Whole-Body Motion Control Based on Centroidal Momentum Dynamics},
+volume = {9},
+journal = {Applied Sciences},
+doi = {10.3390/app9071335}
+}
+
+@inproceedings{FloatingBase2,
+author = {Mastalli, Carlos and Focchi, Michele and Havoutis, Ioannis and Radulescu, Andreea and Calinon, Sylvain and Buchli, Jonas and Caldwell, Darwin and Semini, Claudio},
+year = {2017},
+month = {05},
+pages = {},
+title = {Trajectory and Foothold Optimization using Low-Dimensional Models for Rough Terrain Locomotion},
+doi = {10.1109/ICRA.2017.7989131}
+}
+
+@article{manipulatorTITAN4,
+author = {Sivcev, Satja and Coleman, Joseph and Omerdic, Edin and Dooly, Gerard and Toal, Daniel},
+year = {2018},
+month = {09},
+pages = {431-450},
+title = {Underwater manipulators: A review},
+volume = {163},
+journal = {Ocean Engineering},
+doi = {10.1016/j.oceaneng.2018.06.018}
+}
+
+@phdthesis{LeggedLocalization,
+  TITLE = {{State estimation and localization of legged robots : a tightly-coupled approach based on a-posteriori maximization}},
+  AUTHOR = {Fourmy, Mederic},
+  URL = {https://theses.hal.science/tel-03715727},
+  NUMBER = {2022ISAT0005},
+  HAL_LOCAL_REFERENCE = {Rapport LAAS n{\textdegree} 22071},
+  SCHOOL = {{INSA de Toulouse}},
+  YEAR = {2022},
+  MONTH = Mar,
+  KEYWORDS = {Estimation ; Robot ; Localization ; Slam ; Legged robot ; Locomotion ; Estimation ; Robots ; Localisation ; Slam ; Robot quadrup{\`e}de et bip{\`e}de ; Locomotion},
+  TYPE = {Theses},
+  PDF = {https://theses.hal.science/tel-03715727v1/file/2022MedericFOURMY.pdf},
+  HAL_ID = {tel-03715727},
+  HAL_VERSION = {v1},
+}
+@book{ProbabilisticRobotics,
+author = {Thrun, Sebastian and Burgard, Wolfram and Fox, Dieter},
+title = {Probabilistic Robotics (Intelligent Robotics and Autonomous Agents)},
+year = {2005},
+isbn = {0262201623},
+publisher = {The MIT Press}
+}
+@inproceedings{LeggedPlanning1,
+   title={Multi-Objective Global Path Planning for Lunar Exploration With a Quadruped Robot},
+   url={http://dx.doi.org/10.1109/iSpaRo60631.2024.10688158},
+   DOI={10.1109/isparo60631.2024.10688158},
+   booktitle={2024 International Conference on Space Robotics (iSpaRo)},
+   publisher={IEEE},
+   author={Richter, Julia and Kolvenbach, Hendrik and Valsecchi, Giorgio and Hutter, Marco},
+   year={2024},
+   month=jun, pages={48–55} }
+
+@phdthesis{LeggedThesis,
+  author       = {Alessandro Zanotti},
+  title        = {Development and applications of quadruped robots: from rigid-body model to flexible body},
+  school       = {Sapienza University of Rome},
+  year         = {2025},
+  url    =  {https://hdl.handle.net/11573/1732474},
+}
+@phdthesis{Ribeiro2023reaction,
+  title={{Reaction-Aware Robotic Locomotion in Microgravity}},
+  author={Ribeiro, Warley Francisco Rocha},
+  year={2023},
+  school={Tohoku University},
+  address={Japan},
+  note={Doctoral thesis}
+}
+
+@mastersthesis{Ribeiro2019climbing,
+  title={{Motion Control and Stability Analysis of a Free-Climbing Robot for Exploration under Microgravity}},
+  author={Ribeiro, Warley Francisco Rocha},
+  year={2019},
+  school={Tohoku University},
+  address={Japan},
+  note={Master's thesis}
+}
+
+@mastersthesis{LIMBEROTakadaThesis,
+  title={{Scaffolding and Path Planning Methodology for Legged Robots Based on Graph Theory}},
+  author={Takada, Kazuki},
+  year={2024},
+  school={Tohoku University},
+  address={Japan},
+  note={Master's thesis}
+}
+@mastersthesis{GRIEELUdaThesis,
+  title={{Development and Evaluation of Multimodal Robots Gripper-Wheel Deformable Mechanism}},
+  author={Uda, Masahiro},
+  year={2023},
+  school={Tohoku University},
+  address={Japan},
+  note={Master's thesis}
+}
+@book{ModernRobotics,
+author = {Lynch, Kevin M. and Park, Frank C.},
+title = {Modern Robotics: Mechanics, Planning, and Control},
+year = {2017},
+isbn = {1107156300},
+publisher = {Cambridge University Press},
+address = {USA},
+edition = {1st},
+}
+@INPROCEEDINGS{HopperLegWheel,
+  author={Tanaka, Takahiro and Hirose, Shigeo},
+  booktitle={2008 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+  title={Development of leg-wheel hybrid quadruped “AirHopper” design of powerful light-weight leg with wheel}, 
+  year={2008},
+  volume={},
+  number={},
+  pages={3890-3895},
+  keywords={Leg;Atmospheric modeling;Robots;Wheels;Mobile robots;Joints;Valves;AirHopper;Pneumatic Actuator;Leg-wheel hybrid Jumping Robot},
+  doi={10.1109/IROS.2008.4650880}}
+
+@INPROCEEDINGS{YoshikawaRedundancy,
+  author={Yoshikawa, T.},
+  booktitle={Proceedings. 1985 IEEE International Conference on Robotics and Automation}, 
+  title={Manipulability and redundancy control of robotic mechanisms}, 
+  year={1985},
+  volume={2},
+  number={},
+  pages={1004-1009},
+  keywords={Robot control;Manipulators;Wrist;Robotics and automation;Jacobian matrices;Position measurement;Algorithm design and analysis;Robot kinematics;Automatic control;Laboratories},
+  doi={10.1109/ROBOT.1985.1087283}}
+
+@book{YoshikawaRoboticsBook,
+author = {Yoshikawa, Tsuneo},
+title = {Foundations of robotics: analysis and control},
+year = {1990},
+isbn = {0262240289},
+publisher = {MIT Press},
+address = {Cambridge, MA, USA}
+}
+
+@article{ManipulabilityYoshikawa,
+author = {Tsuneo Yoshikawa},
+title ={Manipulability of Robotic Mechanisms},
+journal = {The International Journal of Robotics Research},
+volume = {4},
+number = {2},
+pages = {3-9},
+year = {1985},
+doi = {10.1177/027836498500400201},
+URL = {  https://doi.org/10.1177/027836498500400201},
+eprint = { https://doi.org/10.1177/027836498500400201},
+abstract = { This paper discusses the manipulating ability of robotic mechanisms in positioning and orienting end-effectors and proposes a measure of manipulability. Some properties of this measure are obtained, the best postures of various types of manipulators are given, and a four-degree-of-freedom finger is considered from the viewpoint of the measure. The pos tures somewhat resemble those of human arms and fingers. }}
+
+@INPROCEEDINGS{TRManipulability,
+  author={Yoshikawa, T.},
+  booktitle={Proceedings IECON '91: 1991 International Conference on Industrial Electronics, Control and Instrumentation}, 
+  title={Translational and rotational manipulability of robotic manipulators}, 
+  year={1991},
+  volume={},
+  number={},
+  pages={1170-1175 vol.2},
+  keywords={Robots;Manipulators;Ellipsoids;Rotation measurement;End effectors;Mechanical variables measurement;Wrist;Matrix decomposition;Mechanical engineering;Kinematics},
+  doi={10.1109/IECON.1991.239275}}
+
+@article{AsadaDynamicManipulability,
+    author = {Asada, Haruhiko},
+    title = {A Geometrical Representation of Manipulator Dynamics and Its Application to Arm Design},
+    journal = {Journal of Dynamic Systems, Measurement, and Control},
+    volume = {105},
+    number = {3},
+    pages = {131-142},
+    year = {1983},
+    month = {09},
+    abstract = {A new approach to the geometrical representation of manipulator dynamics is presented. The inertia ellipsoid, which is used to represent dynamic characteristics of a single rigid body, is extended to a general ellipsoid for a series of rigid bodies in order to represent the manipulator dynamics. The geometrical configuration of the generalized inertia ellipsoid (GIE) represents the characteristics of the manipulator as a whole. One can understand the complicated inertial effect and nonlinearity of multi-degree-of-freedom motion by simply investigating the GIE configuration. In the latter half of the paper, this method is applied to aid the design of a mechanical arm, in which dimensions of an arm structure and its mass distribution are optimized through the evaluation and graphical representation of the arm dynamics.},
+    issn = {0022-0434},
+    doi = {10.1115/1.3140644},
+    url = {https://doi.org/10.1115/1.3140644},
+    eprint = {https://asmedigitalcollection.asme.org/dynamicsystems/article-pdf/105/3/131/5483351/131\_1.pdf},
+}
+
+@INPROCEEDINGS{TaskCompatibilityEllipsoid,
+  author={Chiu, S.},
+  booktitle={Proceedings. 1987 IEEE International Conference on Robotics and Automation}, 
+  title={Control of redundant manipulators for task compatibility}, 
+  year={1987},
+  volume={4},
+  number={},
+  pages={1718-1724},
+  keywords={Velocity control;Force control;Actuators;Force measurement;Optimal control;Manipulators;End effectors;Ellipsoids;Velocity measurement;Humans},
+  doi={10.1109/ROBOT.1987.1087795}}
+
+@article{TaskCompatibilityPosture,
+author = {Stephen L. Chiu},
+title ={Task Compatibility of Manipulator Postures},
+journal = {The International Journal of Robotics Research},
+volume = {7},
+number = {5},
+pages = {13-21},
+year = {1988},
+doi = {10.1177/027836498800700502},
+URL = { https://doi.org/10.1177/027836498800700502},
+eprint = {      https://doi.org/10.1177/027836498800700502 },   abstract = { In performing a manipulation task, humans tend to adopt arm postures that most effectively utilize the motion and strength capabilities of the arm. Selecting arm postures that are compatible with the task requirements has become almost instinctive to humans. By mimicking this approach in robotic manipulation, we can exploit the full capability of a manipulator in performing a task. An index is proposed for measuring the compatibility of manipulator postures with respect to a generalized task description. The manipulator is viewed as a mechanical transformer, with joint space velocity and force as input and task space velocity and force as output. Optimization of the index corresponds to matching the velocity and force transmission characteristics to the task requirements. The applications of this index to manipulator redundancy utilization and workspace design are also discussed. }
+}
+
+@article{DualArmSpaceManipulabilityMeasure,
+title = {Manipulability measure of dual-arm space robot and its application to design an optimal configuration},
+journal = {Acta Astronautica},
+volume = {128},
+pages = {322-329},
+year = {2016},
+issn = {0094-5765},
+doi = {https://doi.org/10.1016/j.actaastro.2016.07.040},
+url = {https://www.sciencedirect.com/science/article/pii/S0094576516304623},
+author = {Bo Zhang and Bin Liang and Xueqian Wang and Gang Li and Zhang Chen and Xiaojun Zhu},
+keywords = {Space robot, Manipulability measure, Dual-arm, Configuration optimization},
+}
+@article{DualArmSpaceManipulabilityEllipsoid,
+title = {Kinematic and dynamic manipulability analysis for free-floating space robots with closed chain constraints},
+journal = {Robotics and Autonomous Systems},
+volume = {130},
+pages = {103548},
+year = {2020},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2020.103548},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889019309236},
+author = {Ruonan Xu and Jianjun Luo and Mingming Wang},
+keywords = {Cooperative manipulation, Free-floating, Multi-arm space robot, Closed chain system, Manipulability analysis},
+abstract = {This paper presents the manipulability analysis of free-floating multi-arm space robots. Evaluation of manipulator capability is useful both in the design and in the operation phase. After capturing a target, closed kinematic chains are formed with multi-arm cooperative manipulating a common object. Owing to the dynamic coupling effect, the manipulability analysis of free-floating systems is more complex than that of ground-fixed closed chain systems. To analyze the cooperative manipulability, kinematic and dynamic formulations for the free-floating closed chain systems are firstly derived. The formulations describe the mapping of joint velocities and torques, respectively, to task velocities and forces, as well as joint torques to task accelerations and forces, by using the generalized Jacobian matrices. Next, the well-known concepts of manipulability ellipsoid, manipulability measure and task compatibility of the free-floating closed chain system are formally extended. Besides, a new approach called scaling factor method is used in the analysis of the task compatibility, which is more accurate compared with the manipulability ellipsoid method. Three applications of the performance indices are considered: (1) the feasibility analysis for a given task, (2) the trajectory planing giving a desired task path, and (3) configuration optimization with different task requirements. The proposed index is proved a very efficient tool that can be utilized in the cooperative manipulation tasks for free-floating space robotic systems.}
+}
+@ARTICLE{MultiLimbManipulabilityMelchiorri,
+  author={Bicchi, A. and Melchiorri, C. and Balluchi, D.},
+  journal={IEEE Transactions on Robotics and Automation}, 
+  title={On the mobility and manipulability of general multiple limb robots}, 
+  year={1995},
+  volume={11},
+  number={2},
+  pages={215-228},
+  keywords={Mobile robots;Robot kinematics;Legged locomotion;Manipulators;Motion analysis;Performance evaluation;Performance analysis;Actuators;Vehicles;Arm},
+  doi={10.1109/70.370503}}
+
+
+@INPROCEEDINGS{PolytopesManipulability,
+  author={Finotello, R. and Grasso, T. and Rossi, G. and Terribile, A.},
+  booktitle={Proceedings. 1998 IEEE International Conference on Robotics and Automation (Cat. No.98CH36146)}, 
+  title={Computation of kinetostatic performances of robot manipulators with polytopes}, 
+  year={1998},
+  volume={4},
+  number={},
+  pages={3241-3246 vol.4},
+  keywords={Robots;Manipulators;Ellipsoids;End effectors;Hypercubes;Telephony;Arm;Performance evaluation;Performance analysis;Mechanical factors},
+  doi={10.1109/ROBOT.1998.680928}}
+
+@inproceedings{DualArmManipulability,
+  title={On the manipulability of dual cooperative robots},
+  author={Pasquale Chiacchio and Stefano Chiaverini and Lorenzo Sciavicco and Bruno Siciliano},
+  year={1989},
+  url={https://api.semanticscholar.org/CorpusID:11436616}
+}
+@ARTICLE{DualArmTaskManipulability,
+  author={Lee, S.},
+  journal={IEEE Transactions on Robotics and Automation}, 
+  title={Dual redundant arm configuration optimization with task-oriented dual arm manipulability}, 
+  year={1989},
+  volume={5},
+  number={1},
+  pages={78-97},
+  keywords={Motion control;Ellipsoids;Arm;Force control;Volume measurement;Fixtures;Robot kinematics;Intelligent robots;Shape},
+  doi={10.1109/70.88020}}
+
+@article{MultiArmManipulability,
+  title={Global task space manipulability ellipsoids for multiple-arm systems},
+  author={Pasquale Chiacchio and Stefano Chiaverini and Lorenzo Sciavicco and Bruno Siciliano},
+  journal={IEEE Trans. Robotics Autom.},
+  year={1991},
+  volume={7},
+  pages={678-685},
+  url={https://api.semanticscholar.org/CorpusID:17597553}
+}
+@Inbook{CooperativeManipulators,
+author="Caccavale, Fabrizio
+and Uchiyama, Masaru",
+editor="Siciliano, Bruno
+and Khatib, Oussama",
+title="Cooperative Manipulators",
+bookTitle="Springer Handbook of Robotics",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="701--718",
+isbn="978-3-540-30301-5",
+doi="10.1007/978-3-540-30301-5_30",
+url="https://doi.org/10.1007/978-3-540-30301-5_30"
+}
+
+@article{QuadrupedLocomotion,
+author = {Gonzalez-de-Santos, Pablo and Garcia, Elena and Estremera, Joaquin},
+year = {2006},
+month = {01},
+pages = {},
+title = {Quadrupedal locomotion. An introduction to the control of four-legged robots},
+isbn = {9781846283062},
+journal = {Quadrupedal Locomotion: An Introduction to the Control of Four-legged Robots},
+doi = {10.1007/1-84628-307-8}
+}
+
+@incollection{HumanoidRobot,
+title = {Chapter 4 - Dynamics},
+editor = {Dragomir N. Nenchev and Atsushi Konno and Teppei Tsujita},
+booktitle = {Humanoid Robots},
+publisher = {Butterworth-Heinemann},
+pages = {125-202},
+year = {2019},
+isbn = {978-0-12-804560-2},
+doi = {https://doi.org/10.1016/B978-0-12-804560-2.00011-0},
+url = {https://www.sciencedirect.com/science/article/pii/B9780128045602000110},
+author = {Dragomir N. Nenchev and Atsushi Konno and Teppei Tsujita},
+keywords = {Multibody system dynamics, Free-floating space robot, Humanoid robot dynamics, Inverse dynamics with constraints},
+}
+
+@INPROCEEDINGS{BipedEllipsoid1,
+  author={Maneewarn, Thavida and Boonprakob, Apinya},
+  booktitle={2008 IEEE International Conference on Robotics and Biomimetics}, 
+  title={Walking pattern modification using manipulability ellipsoid for biped robot}, 
+  year={2009},
+  volume={},
+  number={},
+  pages={160-165},
+  keywords={Legged locomotion;Ellipsoids;Energy consumption;Robot sensing systems;Stability;Energy measurement;Velocity measurement;Angular velocity;Testing;Current measurement;Humanoid robot;Manipulability ellipsoid Walking pattern;Power consumption},
+  doi={10.1109/ROBIO.2009.4912997}}
+@article{BipedEllipsoid2,
+  title={On the manipulability of swing foot and stability of human locomotion},
+  author={Behnam Miripour Fard and Sjoerd M. Bruijn},
+  journal={Multibody System Dynamics},
+  year={2019},
+  volume={46},
+  pages={109-125},
+  url={https://api.semanticscholar.org/CorpusID:127223126}
+}
+@article{BipedEllipsoid3,
+  author    = {Behnam Miripour Fard and Mohamad Mosadeghzad},
+  title     = {Manipulability Based Hierarchical Control of Perturbed Walking},
+  journal   = {International Journal of Control, Automation and Systems},
+  volume    = {17},
+  number    = {9},
+  pages     = {2343--2353},
+  year      = {2019},
+  month     = {September},
+  doi       = {10.1007/s12555-018-0577-9},
+  url       = {https://doi.org/10.1007/s12555-018-0577-9},
+  issn      = {2005-4092}
+}
+@article{BipedEllipsoid4,
+  title={Dynamic Reconfiguration Manipulability analyses of humanoid bipedal walking},
+  author={Yosuke Kobayashi and Mamoru Minami and Akira Yanou and Tomohide Maeba},
+  journal={2013 IEEE International Conference on Robotics and Automation},
+  year={2013},
+  pages={4779-4784},
+  url={https://api.semanticscholar.org/CorpusID:13505421}
+}
+@article{BipedEllipsoid5,
+  title={Application and analyses of Dynamic Reconfiguration Manipulability Shape Index into humanoid biped walking},
+  author={Keli Shen and Xiang Li and Hongzhi Tian and Daiji Izawa and Mamoru Minami and Takayuki Matsuno},
+  journal={2016 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
+  year={2016},
+  pages={1436-1441},
+  url={https://api.semanticscholar.org/CorpusID:18458215}
+}
+
+@article{EllipsoidTracking,
+  title={Simple desired manipulability ellipsoid with velocity and force for control of redundant manipulator},
+  author={Yun-Seok Choi and Issac Rhee and Phi Tien Hoang and Hyouk Ryeol Choi},
+  journal={Journal of Mechanical Science and Technology},
+  year={2023},
+  volume={37},
+  pages={2033-2041},
+  url={https://api.semanticscholar.org/CorpusID:257887990}
+}
+
+@article{SurveyQuadrupeds,
+title = {A survey of the development of quadruped robots: Joint configuration, dynamic locomotion control method and mobile manipulation approach},
+journal = {Biomimetic Intelligence and Robotics},
+volume = {2},
+number = {1},
+pages = {100029},
+year = {2022},
+issn = {2667-3797},
+doi = {https://doi.org/10.1016/j.birob.2021.100029},
+url = {https://www.sciencedirect.com/science/article/pii/S2667379721000292},
+author = {Hui Chai and Yibin Li and Rui Song and Guoteng Zhang and Qin Zhang and Song Liu and Jinmian Hou and Yaxian Xin and Ming Yuan and Guoxuan Zhang and Zhiyuan Yang},
+keywords = {Quadruped robot, Joint configuration, Dynamic locomotion control, Mobile manipulation, Hyper-bio-inspired mechanism design},
+}
+@INPROCEEDINGS{DeLucaContact1,
+  author={de Luca, A. and Mattone, R.},
+  booktitle={Proceedings of the 2005 IEEE International Conference on Robotics and Automation}, 
+  title={Sensorless Robot Collision Detection and Hybrid Force/Motion Control}, 
+  year={2005},
+  volume={},
+  number={},
+  pages={999-1004},
+  keywords={Robot sensing systems;Motion detection;Force control;Force sensors;Motion control;Fault detection;Contacts;Switches;Manipulator dynamics;Computational geometry;Collision detection;fault detection and isolation;hybrid force/motion control},
+  doi={10.1109/ROBOT.2005.1570247}}
+
+@Inbook{HandbookLegged,
+author="Kajita, Shuuji
+and Espiau, Bernard",
+editor="Siciliano, Bruno
+and Khatib, Oussama",
+title="Legged Robots",
+bookTitle="Springer Handbook of Robotics",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="361--389",
+isbn="978-3-540-30301-5",
+doi="10.1007/978-3-540-30301-5_17",
+url="https://doi.org/10.1007/978-3-540-30301-5_17"
+}
+@incollection{ModelingControlLegged,
+  TITLE = {{Modeling and Control of Legged Robots}},
+  AUTHOR = {Wieber, Pierre-Brice and Tedrake, Russ and Kuindersma, Scott},
+  URL = {https://inria.hal.science/hal-02487855},
+  BOOKTITLE = {{Springer Handbook of Robotics}},
+  PUBLISHER = {{Springer International Publishing}},
+  PAGES = {1203-1234},
+  YEAR = {2016},
+  DOI = {10.1007/978-3-319-32552-1\_48},
+  PDF = {https://inria.hal.science/hal-02487855v1/file/Chapter.pdf},
+  HAL_ID = {hal-02487855},
+  HAL_VERSION = {v1},
+}
+@Inbook{ArticulatedRobots,
+author="Wieber, P.-B.",
+editor="Diehl, Moritz
+and Mombaur, Katja",
+title="Holonomy and Nonholonomy in the Dynamics of Articulated Motion",
+bookTitle="Fast Motions in Biomechanics and Robotics: Optimization and Feedback Control",
+year="2006",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="411--425",
+abstract="Walking, running or jumping are special cases of articulated motions which rely heavily on contact forces for their accomplishment. This central role of the contact forces is widely recognized now, but it is rarely connected to the structure of the dynamics of articulated motion. Indeed, this dynamics is generally considered as a complex nonlinear black-box without any specific structure, or its structure is only partly uncovered. We propose here to precise this structure and show in details how it shapes the movements that an articulated system might realize. Some propositions are made then to improve the design of control laws for walking, running, jumping or free-floating motions.",
+isbn="978-3-540-36119-0",
+doi="10.1007/978-3-540-36119-0_20",
+url="https://doi.org/10.1007/978-3-540-36119-0_20"
+}
+
+@article{RibeiroGroundGripping,
+author = {Ribeiro, Warley and Uno, Kentaro and Nagaoka, Kenji and YOSHIDA, Kazuya},
+year = {2021},
+month = {09},
+pages = {794-801},
+title = {Analysis of Motion Control for a Quadruped Ground-Gripping Robot for Minor Body Exploration on Uneven Terrain},
+volume = {19},
+journal = {TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN},
+doi = {10.2322/tastj.19.794}
+}
+
+@misc{WBCQuadruped,
+      title={Passive Whole-body Control for Quadruped Robots: Experimental Validation over Challenging Terrain}, 
+      author={Shamel Fahmi and Carlos Mastalli and Michele Focchi and Claudio Semini},
+      year={2019},
+      eprint={1811.00884},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/1811.00884}, 
+}
+
+@misc{WBCFocchi,
+      title={Passive Whole-body Control for Quadruped Robots: Experimental Validation over Challenging Terrain}, 
+      author={Shamel Fahmi and Carlos Mastalli and Michele Focchi and Claudio Semini},
+      year={2019},
+      eprint={1811.00884},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/1811.00884}, 
+}
+
+@InProceedings{RL_wheelLegged,
+author="Lee, Joonho
+and Bjelonic, Marko
+and Hutter, Marco",
+editor="Cascalho, Jos{\'e} M.
+and Tokhi, Mohammad Osman
+and Silva, Manuel F.
+and Mendes, Armando
+and Goher, Khaled
+and Funk, Matthias",
+title="Control of Wheeled-Legged Quadrupeds Using Deep Reinforcement Learning",
+booktitle="Robotics in Natural Settings",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="119--127",
+abstract="The control problem of wheeled-legged locomotion is still an open problem in the robotics community. Each leg has multiple discrete control modes (rolling, point-foot mode, swing phase), which results in highly nonlinear system dynamics. Most existing works rely on model-based control approaches, and they reduce the complexity of the problem by introducing handcrafted contact sequences or simplified dynamics models. In this work, we attempt to develop a locomotion controller for a wheeled-legged robot using model-free Reinforcement Learning (RL). We train a control policy in simulation, where we simulate the full dynamics of the system and random external disturbances. We then deploy the trained policy on the real robot. Like recent state-of-the-arts in legged locomotion using RL, our preliminary results show that RL is a promising framework for wheeled-legged robots. The policy learns to dynamically switch between driving mode and walking mode in response to the user command and terrain.",
+isbn="978-3-031-15226-9"
+}
+
+@ARTICLE{InteligentControlMultiLegged,
+  author={Zhao, Yongyong and Wang, Jinghua and Cao, Guohua and Yuan, Yi and Yao, Xu and Qi, Luqiang},
+  journal={IEEE Access}, 
+  title={Intelligent Control of Multilegged Robot Smooth Motion: A Review}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={86645-86685},
+  keywords={Robots;Legged locomotion;Robot sensing systems;Intelligent control;Control systems;Probability density function;Gait recognition;Reinforcement learning;Learning systems;Multilegged robot;foot planning;gait stability;compliant control;probability density function control;deep reinforcement learning control},
+  doi={10.1109/ACCESS.2023.3304992}}
+
+@article{LeggedSurvey,
+title = {A survey on legged robots: Advances, technologies and applications},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {138},
+pages = {109418},
+year = {2024},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2024.109418},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197624015768},
+author = {Zhenyu Wu and Kun Zheng and Zhiyang Ding and Hongbo Gao},
+keywords = {Legged robot, Robot engineering, Gait planning, Machine learning},
+}
+
+@ARTICLE{HiroseDesignGate,
+  author={Hirose, Shigeo and Fukuda, Yasushi and Yoneda, Kan and Nagakubo, Akihiko and Tsukagoshi, Hideyuki and Arikawa, Keisuke and Endo, Gen and Doi, Takahiro and Hodoshima, Ryuichi},
+  journal={IEEE Robotics \& Automation Magazine}, 
+  title={Quadruped walking robots at Tokyo Institute of Technology}, 
+  year={2009},
+  volume={16},
+  number={2},
+  pages={104-114},
+  keywords={Legged locomotion;Power generation;Robot kinematics;Leg;Power supplies;Energy loss;Angular velocity;Torque;Clocks;Fingers},
+  doi={10.1109/MRA.2009.932524}}
+
+@INPROCEEDINGS{FuzzyQuadruped,
+  author={Haoran Lu and Tao Mei and Rui Wang and Meng, M.Q.-H.},
+  booktitle={International Conference on Information Acquisition, 2004. Proceedings.}, 
+  title={Application of self-tuning fuzzy PI+PD controller in joint DC servo motors of a four-leg robot}, 
+  year={2004},
+  volume={},
+  number={},
+  pages={520-523},
+  keywords={Fuzzy control;Servomechanisms;DC motors;Servomotors;Robots;Process control;Control systems;Fuzzy systems;Inference algorithms;Leg},
+  doi={10.1109/ICIA.2004.1373425}}
+
+@misc{RL_overview,
+      title={Reinforcement Learning: An Overview}, 
+      author={Kevin Murphy},
+      year={2024},
+      eprint={2412.05265},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2412.05265}, 
+}
+
+@phdthesis{KentaroUnoPhD,
+  author       = {Kentaro Uno},
+  title        = {Autonomous Limbed Climbing Robots for Challenging Terrain Exploration},
+  school       = {Department of Aerospace Engineering, Tohoku University},
+  year         = {2021},
+  address      = {Sendai, Japan}
+}
+
+@book{ControlTheory,
+  title={Fondamenti di controlli automatici},
+  author={Bolzern, P. and Scattolini, R. and Schiavoni, N.},
+  isbn={9788838668821},
+  series={Collana di istruzione scientifica},
+  url={https://books.google.it/books?id=nVEhrgEACAAJ},
+  year={2015},
+  publisher={McGraw-Hill Education}
+}
+@article{ISSLimbedRobot,
+author = {TAKADA, Kazuki and Uno, Kentaro and MURASE, Koki and OKAWARA, Taku and IMAI, Masazumi and Ribeiro, Warley and YAMAGUCHI, Seiko and ITAKURA, Riichi and OTSUKA, Akiko and INAGAKI, Tetsuya and WADA, Masaru and YOSHIDA, Kazuya},
+year = {2023},
+month = {01},
+pages = {1A2-B27},
+title = {The Simulated Micro-Gravity Experiment of the Intra-Vehicular Legged Mobile Robot for ISS AutomationISS船内伝い歩き移動ロボットの微小重力模擬移動実験},
+volume = {2023},
+journal = {The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)},
+doi = {10.1299/jsmermd.2023.1A2-B27}
+}
+
+@article{KhatibConstrainedConsistentTaskOrientedWBC,
+author = {Oussama Khatib and Mikael Jorda and Jaeheung Park and Luis Sentis and Shu-Yun Chung},
+title ={Constraint-consistent task-oriented whole-body robot formulation: Task, posture, constraints, multiple contacts, and balance},
+journal = {The International Journal of Robotics Research},
+volume = {41},
+number = {13-14},
+pages = {1079-1098},
+year = {2022},
+doi = {10.1177/02783649221120029},
+URL = {https://doi.org/10.1177/02783649221120029},
+eprint = {https://doi.org/10.1177/02783649221120029},
+abstract = { We present a comprehensive formulation to the problem of controlling a high-dimensional robotic system involving complex tasks subject to a variety of constraints, obstacles, balance, and contact challenges. Using intuitive and natural representations, the approach is initiated by establishing individual objectives for a task and its constraints. Simple independent controllers using artificial potential fields are then designed for each objective to reach goals while enforcing the constraints. Dynamically consistent projections in nullspaces associated with task and constraint representations are employed to deliver a coherent whole-body robot control. In multi-link multi-contact tasks, contact forces produce both resulting and internal forces. Internal forces play a critical role in robot balance and stability, achieved in this framework through modeling and controlling virtual linkages that explicitly describe the relationship between active/passive contact force, resultant force, controlled/uncontrolled internal force for multi-link multi-contact underactuated robots. Control of contacts with the environment involves material considerations such as friction and geometric constraints. Potential barriers direct the selection of contact forces ensuring stability and balance. This approach of dynamic projection and the Virtual Linkage Model addresses robot underactuation. In addition, the framework introduces a coordinate completion mechanism to establish a generalized coordinates representation of the task, removing redundancy and maintaining the full operational space dynamics description. This enables task-space dynamic control based on the relevant inertial properties. We present the experimental validation on a physical humanoid platform. }
+}
+
+@article{comparativeStabilityStudy,
+title={A comparative study of stability margins for walking machines}, volume={20},
+DOI={10.1017/S0263574702004502},
+number={6}, 
+journal={Robotica}, 
+author={Garcia, Elena and Estremera, Joaquin and de Santos, Pablo Gonzalez}, 
+year={2002}, 
+pages={595–606}} 
+
+@article{WheelLeggedStabilityOPT,
+  TITLE = {{Stability and traction optimization of a wheel-legged robot}},
+  AUTHOR = {Grand, Christophe and Ben Amar, Faiz and Bidaud, Philippe and Plumet, Fr{\'e}d{\'e}ric},
+  URL = {https://hal.science/hal-03135896},
+  JOURNAL = {{The International Journal of Robotics Research}},
+  PUBLISHER = {{SAGE Publications}},
+  VOLUME = {23},
+  NUMBER = {10-11},
+  PAGES = {1041-1058},
+  YEAR = {2004},
+  DOI = {10.1177/0278364904047616},
+  PDF = {https://hal.science/hal-03135896v1/file/grand_ij1634.pdf},
+  HAL_ID = {hal-03135896},
+  HAL_VERSION = {v1},
+}
+
+@article{TipOverMobileManipulators,
+  title={A new measure of tipover stability margin for mobile manipulators},
+  author={Evangelos Papadopoulos and Daniel A. Rey},
+  journal={Proceedings of IEEE International Conference on Robotics and Automation},
+  year={1996},
+  volume={4},
+  pages={3111-3116 vol.4},
+  url={https://api.semanticscholar.org/CorpusID:18634635}
+}
+
+
+@INPROCEEDINGS{NormalizedEnergySM,
+  author={Hirose, S. and Tsukagoshi, H. and Yoneda, K.},
+  booktitle={Proceedings 2001 ICRA. IEEE International Conference on Robotics and Automation (Cat. No.01CH37164)}, 
+  title={Normalized energy stability margin and its contour of walking vehicles on rough terrain}, 
+  year={2001},
+  volume={1},
+  number={},
+  pages={181-186 vol.1},
+  keywords={Legged locomotion;Stability criteria;Land vehicles;Road vehicles;Gravity;Immune system;Wheels;Crawlers;Leg;Terrain factors},
+  doi={10.1109/ROBOT.2001.932550}}
+
+@article{EnergyIndexhexapod,
+title = {Dynamic modeling, stability and energy consumption analysis of a realistic six-legged walking robot},
+journal = {Robotics and Computer-Integrated Manufacturing},
+volume = {29},
+number = {2},
+pages = {400-416},
+year = {2013},
+issn = {0736-5845},
+doi = {https://doi.org/10.1016/j.rcim.2012.09.010},
+url = {https://www.sciencedirect.com/science/article/pii/S0736584512001135},
+author = {Shibendu Shekhar Roy and Dilip Kumar Pratihar},
+keywords = {Six-legged robot, Wave gait, Dynamics, Energy consumption, Stability},
+abstract = {This paper deals with a detailed analysis on kinematics, dynamics, stability and energy consumption of a realistic six-legged robot. The aim of this study is to extend a previous work of Roy et al. [1], in order to estimate optimal feet forces and joint torques of the six-legged robot generating wave-gaits with four different duty factors and deal with its stability issues. Two different approaches are developed to determine optimal feet forces. In the first approach, minimization of the norm of feet forces is carried out using a least square method, whereas minimization of the norm of joint torques is performed in the second approach. The second approach is found to be more energy efficient compared to the first one. The maximum values of feet forces and joint torques are seen to decrease with the increase of duty factor. The effects of walking parameters, namely velocity, stroke and duty factors have been studied on energy consumption and stability of the robot. The variations of average power consumption and specific energy consumption with the velocity and stroke are compared for four different duty factors. Wave gait with a low duty factor is found to be more energy-efficient compared to that with a high duty factor at the highest possible velocity.}
+}
+@article{ZMP_vukobratovic,
+title = {On the stability of anthropomorphic systems},
+journal = {Mathematical Biosciences},
+volume = {15},
+number = {1},
+pages = {1-37},
+year = {1972},
+issn = {0025-5564},
+doi = {https://doi.org/10.1016/0025-5564(72)90061-2},
+url = {https://www.sciencedirect.com/science/article/pii/0025556472900612},
+author = {M. Vukobratović and J. Stepanenko},
+abstract = {This contribution treats definitions, dynamic aspects, and stability concepts of anthropomorphic systems. In addition to general conclusions about the new method of two-legged systems modelling, there are given some characteristic schemes of perturbed steady-gait regime stabilization.}
+}
+@inproceedings{GIA_polyedron,
+title = "Dynamic equilibrium of climbing robots based on stability polyhedron for gravito-inertial acceleration",
+abstract = "Climbing robots have a high capability to explore hazardous environments, including disaster sites and extraterrestrial bodies under low-gravity. Equilibrium evaluation is necessary to plan safe locomotion for a robot, but most methods consider either only static conditions or complex friction theory. Since dynamic consideration is necessary for evaluation in low-gravity and defining friction characteristics for grippers with several contact points is challenging, we propose an equilibrium evaluation based on gravito-inertial acceleration (GIA) and stability polyhedron. We combine both static and dynamics from gravity and inertial acceleration into one single vector and calculate stability polyhedron from tumble stability theory by including the maximum holding force of a gripper. Simulations and experiments validate the method efficacy.",
+author = "Ribeiro, {Warley F.R.} and Kentaro Uno and Kazuya Yoshida and Kenji Nagaoka",
+note = "Funding Information: This work is partly supported by JSPS KAKENHI Grant Number 19J20685. Publisher Copyright: {\textcopyright} CLAWAR Association Ltd.; 23rd International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines, CLAWAR 2020 ; Conference date: 24-08-2020 Through 26-08-2020",
+year = "2020",
+doi = "10.13180/clawar.2020.24-26.08.18",
+language = "English",
+isbn = "9781916449046",
+series = "Robots in Human Life- Proceedings of the 23rd International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines, CLAWAR 2020",
+publisher = "CLAWAR Association Ltd",
+pages = "297--304",
+editor = "Gradetsky, {Valery G.} and Bolotnik, {Nikolay N.} and Tokhi, {Mohammad Osman} and Manuel Silva and Virk, {Gurvinder S.}",
+booktitle = "Robots in Human Life- Proceedings of the 23rd International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines, CLAWAR 2020",
+}
+
+@INPROCEEDINGS{TumbleStability,
+  author={Yoneda, K. and Hirose, S.},
+  booktitle={Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems. IROS '96}, 
+  title={Tumble stability criterion of integrated locomotion and manipulation}, 
+  year={1996},
+  volume={2},
+  number={},
+  pages={870-876 vol.2},
+  keywords={Stability criteria;Legged locomotion;Ground support;Mobile robots;Leg;Gravity;Surface topography;Drilling;Wheels;Joining processes},
+  doi={10.1109/IROS.1996.571067}}
+
+@article{bipedalVSquadrupedal,
+ ISSN = {02698463, 13652435},
+ URL = {http://www.jstor.org/stable/2389887},
+ abstract = {1. Running endurance and running direction changes of both bipedal (Dipodomys, Microdipodops) and quadrupedal (Chaetotipus, Heteromys, Liomys, Perognathus) heteromyid rodents were measured to determine if locomotor performance is enhanced in bipedal species. 2. Running endurance was significantly higher in bipedal Dipodomys species (kangaroo rats) compared to quadrupedal species of similar size. Bipedal Microdipodops (kangaroo mouse) had even lower endurance than the quadrupedal species as a group. 3. Both running speed and body mass were found to influence running direction changes. The effects of body mass and speed accounted for more running direction changes in Dipodomys species than the quadrupedal species and the bipedal Microdipodops. 4. Bipedal locomotion in general does not enhance running endurance or the ability to change running direction. However, bipedal Dipodomys had higher running endurance than quadrupedal species of comparable size and, given their size and speed, change running direction as often as a small quadrupedal species. 5. These enhancements of locomotor performance in Dipodomys should improve the predator-escape capabilities of these species relative to quadrupedal species.},
+ author = {M. Djawdan},
+ journal = {Functional Ecology},
+ number = {2},
+ pages = {195--202},
+ publisher = {[British Ecological Society, Wiley]},
+ title = {Locomotor Performance of Bipedal and Quadrupedal Heteromyid Rodents},
+ urldate = {2025-02-15},
+ volume = {7},
+ year = {1993}
+}
+@misc{robotsymmetry,
+      title={Morphological Symmetries in Robotics}, 
+      author={Daniel Ordoñez-Apraez and Giulio Turrisi and Vladimir Kostic and Mario Martin and Antonio Agudo and Francesc Moreno-Noguer and Massimiliano Pontil and Claudio Semini and Carlos Mastalli},
+      year={2024},
+      eprint={2402.15552},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2402.15552}, 
+}
+@article{LocomotionLeggedStudy,
+title = {Some finite state aspects of legged locomotion},
+journal = {Mathematical Biosciences},
+volume = {2},
+number = {1},
+pages = {67-84},
+year = {1968},
+issn = {0025-5564},
+doi = {https://doi.org/10.1016/0025-5564(68)90007-2},
+url = {https://www.sciencedirect.com/science/article/pii/0025556468900072},
+author = {R.B. McGhee},
+abstract = {Animal locomotion systems making use of legs as the basic component for support and propulsion can be studied from the point of view of finite state machine theory by regarding each leg as an elementary two-state sequential machine. The two states are simply the state of being in contact with the supporting surface and the state of being raised above it. This idealization permits the construction of a general theory of locomotion equally applicable to animals and legged locomotion machines. Such a theory can be made sufficiently complete to permit the synthesis of finite control algorithms capable of coordinating limb movements in either animals or machines. The validity of the finite state approach has been established by the construction and testing of an artificial quadruped based entirely upon finite state principles.}
+}
+@article{InsectLeggedWalking,
+  title={Insect walking.},
+  author={D. M. Wilson},
+  journal={Annual review of entomology},
+  year={1966},
+  volume={11},
+  pages={
+          103-22
+        },
+  url={https://api.semanticscholar.org/CorpusID:33526426}
+}
+@inbook{animalsInMotion,
+	title = {Animals in motion : an electro-photographic investigation of consecutive phases of animal progressive movements  },
+	copyright = {Public domain. The Library considers that this work is no longer under copyright protection},
+	url = {https://www.biodiversitylibrary.org/page/57972839},
+	note = {https://www.biodiversitylibrary.org/bibliography/158724},
+	publisher = {London, Chapman \& Hall, 1902},
+	author = {Muybridge, Eadweard},
+	year = {1902},
+	pages = {0},
+	keywords = {Animal locomotion|Photography of animals|},
+}
+@inproceedings{Frank1968,
+  title={AUTOMATIC CONTROL SYSTEMS FOR LEGGED LOCOMOTION MACHINES},
+  author={Andrew A. Frank},
+  year={1968},
+  url={https://api.semanticscholar.org/CorpusID:60095056}
+}
+@article{ZMP_Vukobratovic_2,
+  title={Zero-Moment Point - Thirty Five Years of its Life},
+  author={Miomir Vukobratovic and Branislav Borovac},
+  journal={Int. J. Humanoid Robotics},
+  year={2004},
+  volume={1},
+  pages={157-173},
+  url={https://api.semanticscholar.org/CorpusID:36579412}
+}
+
+@inproceedings{ZMP_bipedal,
+  title={A Fast Generation Method of a Dynamically Stable Humanoid Robot Trajectory with Enhanced ZMP Constra},
+  author={Satoshi Kagami and Koichi Nishiwaki and Tomonobu Kitagawa and T Sugihiara and Masayuki Inaba and Hirochika Inoue},
+  year={2000},
+  url={https://api.semanticscholar.org/CorpusID:54080212}
+}
+@INPROCEEDINGS{ZMP_quadruped,
+  author={Li, Xuesheng and Zhang, Xinhao and Niu, Junkai and Li, Chen},
+  booktitle={2022 IEEE International Conference on Mechatronics and Automation (ICMA)}, 
+  title={A Stable Walking Strategy of Quadruped Robot Based on ZMP in Trotting gait}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={858-863},
+  keywords={Legged locomotion;Robot motion;Mechatronics;Automation;Roads;Stability criteria;Planning;Quadruped robot;ZMP;Trotting;Stability},
+  doi={10.1109/ICMA54519.2022.9855991}}
+@INPROCEEDINGS{ZMP_quadruped2,
+  author={Zhang, Si and Gao, Junyao and Duan, Xingguang and Li, Hui and Yu, Zhangguo and Chen, Xuechao and Li, Jing and Liu, Huaxin and Li, Xin and Liu, Yi and Xu, Zhe},
+  booktitle={2013 ICME International Conference on Complex Medical Engineering}, 
+  title={Trot pattern generation for quadruped robot based on the ZMP stability margin}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={608-613},
+  keywords={Legged locomotion;Trajectory;Joints;Stability criteria;Robot kinematics;Shoulder;Quadruped robot;ZMP stability margin;Trot pattern},
+  doi={10.1109/ICCME.2013.6548322}}
+@article{ESM,
+  title={Automatic body regulation for maintaining stability of a legged vehicle during rough-terrain locomotion},
+  author={Dominic A. Messuri and Charles A. Klein},
+  journal={IEEE J. Robotics Autom.},
+  year={1985},
+  volume={1},
+  pages={132-141},
+  url={https://api.semanticscholar.org/CorpusID:40084197}
+}
+
+@article{CosOfTransport,
+url = {http://dx.doi.org/10.1561/2300000044},
+year = {2017},
+volume = {5},
+journal = {Foundations and Trends® in Robotics},
+title = {Design of Dynamic Legged Robots},
+doi = {10.1561/2300000044},
+issn = {1935-8253},
+number = {2},
+pages = {117-190},
+author = {Sangbae Kim and Patrick M. Wensing}
+}
+
+@article{SpecificResistance1,
+  title={What price speed},
+  author={Gabrielli, Giuseppi and Von Karman, TH and others},
+  journal={Mechanical engineering},
+  volume={72},
+  number={10},
+  pages={775--781},
+  year={1950}
+}
+@ARTICLE{SpecificResistance2,
+  author={Gregorio, P. and Ahmadi, M. and Buehler, M.},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)}, 
+  title={Design, control, and energetics of an electrically actuated legged robot}, 
+  year={1997},
+  volume={27},
+  number={4},
+  pages={626-634},
+  keywords={Legged locomotion;Leg;Vehicle dynamics;Mobile robots;Energy efficiency;Robot control;Performance analysis;Energy consumption;Remotely operated vehicles;Control systems},
+  doi={10.1109/3477.604106}}
+
+@article{GarciaDESM, 
+title={An improved energy stability margin for walking machines subject to dynamic effects}, 
+volume={23}, 
+DOI={10.1017/S0263574704000487}, 
+number={1}, 
+journal={Robotica}, 
+author={Garcia, Elena and de Santos, Pablo Gonzalez}, year={2005}, 
+pages={13–20}} 
+
+@article{DESMidea,
+    author = {Ghasempoor, A. and Sepehri, N.},
+    title = {A Measure of Stability for Mobile Manipulators With Application to Heavy-Duty Hydraulic Machines},
+    journal = {Journal of Dynamic Systems, Measurement, and Control},
+    volume = {120},
+    number = {3},
+    pages = {360-370},
+    year = {1998},
+    month = {09},
+    abstract = {This paper describes the development of a suitable algorithm to compute the potential of tipping-over for vehicles that carry manipulators. The energy method developed by Messuri and Klein (1985) is extended here to quantitatively reflect the effect of forces and moments arising from the manipulation of the implement. The amount of the impact energy that can be sustained by the vehicle without tipping-over, about each edge of potential overturning is computed. First, the instantaneous onset of instability configuration of the machine about the edge is determined by constructing an equilibrium plane. Next, the work done by all acting forces and moments when the machine is virtually brought to this unstable stance from the current state, is calculated. This work is the indication of the proximity of the machine to tipping-over around that edge. The application of this study is directed at industrial mobile machines that carry human-operated hydraulic manipulators. The algorithm is therefore used to study the stability of an excavator based log-loader. Simulation studies clearly show the importance of inertial loads in determining the stability of such machines.},
+    issn = {0022-0434},
+    doi = {10.1115/1.2805410},
+    url = {https://doi.org/10.1115/1.2805410},
+    eprint = {https://asmedigitalcollection.asme.org/dynamicsystems/article-pdf/120/3/360/5634093/360\_1.pdf},
+}
+
+@article{BigDogRoughTerrain,
+  title={BigDog, the Rough-Terrain Quadruped Robot},
+  author={Marc H. Raibert and Kevin Blankespoor and Gabriel M. Nelson and Robert Playter},
+  journal={IFAC Proceedings Volumes},
+  year={2008},
+  volume={41},
+  pages={10822-10825},
+  url={https://api.semanticscholar.org/CorpusID:8414062}
+}
+@article{LeggedRObotBiomechanics,
+title = {Convergent evolution and locomotion through complex terrain by insects, vertebrates and robots},
+journal = {Arthropod Structure \& Development},
+volume = {33},
+number = {3},
+pages = {361-379},
+year = {2004},
+note = {Arthropod Locomotion Systems: from Biological Materials and Systems to Robotics},
+issn = {1467-8039},
+doi = {https://doi.org/10.1016/j.asd.2004.05.001},
+url = {https://www.sciencedirect.com/science/article/pii/S1467803904000271},
+author = {Roy E. Ritzmann and Roger D. Quinn and Martin S. Fischer},
+keywords = {Leg design, Body flexion, Descending control, Convergent evolution, Robots},
+abstract = {Arthropods are the most successful members of the animal kingdom largely because of their ability to move efficiently through a range of environments. Their agility has not been lost on engineers seeking to design agile legged robots. However, one cannot simply copy mechanical and neural control systems from insects into robotic designs. Rather one has to select the properties that are critical for specific behaviors that the engineer wants to capture in a particular robot. Convergent evolution provides an important clue to the properties of legged locomotion that are critical for success. Arthropods and vertebrates evolved legged locomotion independently. Nevertheless, many neural control properties and mechanical schemes are remarkably similar. Here we describe three aspects of legged locomotion that are found in both insects and vertebrates and that provide enhancements to legged robots. They are leg specialization, body flexion and the development of a complex head structure. Although these properties are commonly seen in legged animals, most robotic vehicles have similar legs throughout, rigid bodies and rudimentary sensors on what would be considered the head region. We describe these convergent properties in the context of robots that we developed to capture the agility of insects in moving through complex terrain.}
+}
+
+@article{ReviewLegged,
+author = {Fan, Yanan and Pei, Zhongcai and Wang, Chen and Li, Meng and Tang, Zhiyong and Liu, Qinghua},
+title = {A Review of Quadruped Robots: Structure, Control, and Autonomous Motion},
+journal = {Advanced Intelligent Systems},
+volume = {6},
+number = {6},
+pages = {2300783},
+keywords = {autonomous motions, control methods, quadruped robots, structural designs},
+doi = {https://doi.org/10.1002/aisy.202300783},
+url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202300783},
+eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/aisy.202300783},
+abstract = {With their unique point-contact ability with the ground and exceptional adaptability to complex terrains, quadruped robots have become a focal point in the fields of automation and robotic engineering. Significant research progress has been made in aspects such as structural design, motion planning, and balance control of these robots. However, a primary challenge in current research lies in further enhancing the dynamic performance, environmental adaptability, and payload capacity. In this article, research achievements in key technical areas of quadruped robots, encompassing structural design, gait planning, traditional control strategies, intelligent control strategies, and autonomous movement, are comprehensively discussed. The focus of the article is on analyzing trends in intelligence and technological innovation within the aforementioned areas, aiming to provide robust theoretical support and forward-looking technical guidance for quadruped robots research. Additionally, it offers valuable references for scholars engaged in this field.},
+year = {2024}
+}
+
+@misc{SRL,
+  author       = {Aerospace Robotics Laboratory},
+  title        = {Aerospace Robotics Laboratory – Tohoku University},
+  year         = {n.d.},
+  url          = {https://astro.mech.tohoku.ac.jp/e/},
+}
+
+@INPROCEEDINGS{HubRobo,
+  author={Uno, Kentaro and Takada, Naomasa and Okawara, Taku and Haji, Keigo and Candalot, Arthur and Ribeiro, Warley F. R. and Nagaoka, Kenji and Yoshida, Kazuya},
+  booktitle={2020 IEEE-RAS 20th International Conference on Humanoid Robots (Humanoids)}, 
+  title={HubRobo: A Lightweight Multi-Limbed Climbing Robot for Exploration in Challenging Terrain}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={209-215},
+  keywords={Software architecture;Humanoid robots;Vision sensors;Robot sensing systems;Climbing robots;Hardware;Stability analysis},
+  doi={10.1109/HUMANOIDS47582.2021.9555799}
+}
+@INPROCEEDINGS{LocomotionPerformance,
+  author={Silva, M.F. and Tenreiro Machado, J.A. and Lopes, A.M.},
+  booktitle={Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)}, 
+  title={Performance analysis of multi-legged systems}, 
+  year={2002},
+  volume={3},
+  number={},
+  pages={2234-2239 vol.3},
+  keywords={Performance analysis;Legged locomotion;Foot;Leg;Robots;System performance;Power measurement;Loss measurement;Dispersion;Actuators},
+  doi={10.1109/ROBOT.2002.1013564}
+}
+@article{HexapodBaseWorkspace,
+title = {Mechanism design and workspace analysis of a hexapod robot},
+journal = {Mechanism and Machine Theory},
+volume = {174},
+pages = {104917},
+year = {2022},
+issn = {0094-114X},
+doi = {https://doi.org/10.1016/j.mechmachtheory.2022.104917},
+url = {https://www.sciencedirect.com/science/article/pii/S0094114X22001768},
+author = {Huayang Li and Chenkun Qi and Feng Gao and Xianbao Chen and Yue Zhao and Zhijun Chen},
+keywords = {Hexapod robot, Mechanism design, Leg workspace, Body workspace, Staircase-climbing},
+abstract = {Mobile robots are essential for inspection, surveillance, and disaster relief. The legged robot can adapt to challenging terrains such as stairs and debris. The hexapod robot has better stability, payload capability, and fault-tolerant ability than the biped and quadruped robot. This paper proposes a novel hexapod robot composed of two walking platforms and an actively actuated waist joint. The mechanical topology of the robot is determined by comprehensively considering the walking stability, energy consumption, and operating dexterity. The modular leg mechanism is selected by analyzing the reachable workspaces of three typical 2-DOF parallel leg mechanisms. Besides, the analytical method of calculating the reachable workspace of the robot body with shank-ground interferences is studied for the first time, which helps to enhance the efficiency of foothold selection. The feasibility of integrating the analytical workspace in obstacle-surmounting is verified by climbing a 45-degree staircase. Simulations including avoiding obstacles, spot turning, and climbing a staircase are carried out to verify the correctness of the theoretical analysis. A robot prototype is fabricated, and the field experiments corroborate the results of the computational simulations.}
+}
+@article{HexapodBaseWorkspace2,
+author = {Aditya Srinivas Manohar and Shravan Anand Komakula and Kalaiarassan Gunasekaran and K. Padmanabhan Panchu},
+title = {Comparative study on the reachable workspaces of regular and irregular axially symmetric hexapod robots},
+journal = {Journal of Mechanical Science and Technology},
+year = {2021},
+volume = {35},
+publisher = {Korean Society of Mechanical Engineers},
+month = {sep},
+url = {https://doi.org/10.1007/s12206-021-0936-y},
+number = {10},
+pages = {4695--4714},
+doi = {10.1007/s12206-021-0936-y}
+}
+
+@article{threeLeggedDexterity,
+author = {Feller, David},
+title = {Dexterity, Workspace and Performance Analysis of the Conceptual Design of a Novel Three-legged, Redundant, Lightweight, Compliant, Serial-parallel Robot},
+year = {2023},
+issue_date = {Sep 2023},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {109},
+number = {1},
+issn = {0921-0296},
+url = {https://doi.org/10.1007/s10846-023-01900-8},
+doi = {10.1007/s10846-023-01900-8},
+abstract = {In this article, the mechanical design and analysis of a novel three-legged, agile robot with passively compliant 4-degrees-of-freedom legs, comprising a hybrid topology of serial, planar and spherical parallel structures, is presented. The design aims to combine the established principle of the Spring Loaded Inverted Pendulum model for energy efficient locomotion with the accuracy and strength of parallel mechanisms for manipulation tasks. The study involves several kinematics and Jacobian based analyses that specifically evaluate the application of a non-overconstrained spherical parallel manipulator as a robot hip joint, decoupling impact forces and actuation torques, suitable for the requirements of legged locomotion. The dexterity is investigated with respect to joint limits and workspace boundary contours, showing that the mechanism stays well conditioned and allows for a sufficient range of motion. Based on the functional redundancy of the constrained serial-parallel architecture it is furthermore revealed that the robot allows for the exploitation of optimal leg postures, resulting in the possible optimization of actuator load distribution and accuracy improvements. Consequently, the workspace of the robot torso as additional end-effector is investigated for the possible application of object manipulation tasks. Results reveal the existence of a sufficient volume applicable for spatial motion of the torso in the statically stable tripodal posture. In addition, a critical load estimation is derived, which yields a posture dependent performance index that evaluates the risks of overload situations for the individual actuators.},
+journal = {J. Intell. Robotics Syst.},
+month = aug,
+numpages = {22},
+keywords = {Legged robot, Spherical parallel manipulator, Kinematics, Mechanical design, Hybrid, Serial-parallel mechanism, Dexterity, Workspace, Performance}
+}
+@INPROCEEDINGS{velocityWorkspacePolytope,
+  author={Jihong Lee and Insik Kim and Bong-Hwan Jeon},
+  booktitle={2001 IEEE/ASME International Conference on Advanced Intelligent Mechatronics. Proceedings (Cat. No.01TH8556)}, 
+  title={Velocity workspace analysis for multi-legged walking robots}, 
+  year={2001},
+  volume={1},
+  number={},
+  pages={458-463 vol.1},
+  keywords={Legged locomotion;Robot kinematics;Orbital robotics;Leg;Foot;Jacobian matrices;Mobile robots;Mechatronics;Oceans;Electronic mail},
+  doi={10.1109/AIM.2001.936505}}
+
+@misc{dynamixel,
+  author       = "{ROBOTIS}",
+  title        = "{DYNAMIXEL Official Website}",
+  year         = 2025,
+  url          = "https://www.dynamixel.com/",
+}
+@manual{ROS2HumbleDocs,
+  title = {ROS 2 Documentation: Humble Hawksbill},
+  author = {{Open Robotics}},
+  year = {2022},
+  url = {https://docs.ros.org/en/humble/index.html},
+}
+
+@inproceedings{ROS1_2009,
+  title={ROS: an open-source Robot Operating System},
+  author={Morgan Quigley},
+  booktitle={IEEE International Conference on Robotics and Automation},
+  year={2009},
+  url={https://api.semanticscholar.org/CorpusID:6324125}
+}
+@article{ROS2_2022,
+   title={Robot Operating System 2: Design, architecture, and uses in the wild},
+   volume={7},
+   ISSN={2470-9476},
+   url={http://dx.doi.org/10.1126/scirobotics.abm6074},
+   DOI={10.1126/scirobotics.abm6074},
+   number={66},
+   journal={Science Robotics},
+   publisher={American Association for the Advancement of Science (AAAS)},
+   author={Macenski, Steven and Foote, Tully and Gerkey, Brian and Lalancette, Chris and Woodall, William},
+   year={2022},
+   month=may }
+@article{ROS2_2023,
+    author = {Steven Macenski and Alberto Soragna and Michael Carroll and Zhenpeng Ge},
+    title = {Impact of ROS 2 Node Composition in Robotic Systems},
+    journal = {IEEE Robotics and Autonomous Letters (RA-L)},
+    year = {2023},
+    doi = {10.48550/arXiv.2305.09933},
+    URL = {https://arxiv.org/abs/2305.09933}
+}
+@ARTICLE{RobotSimulation1,
+  author={Collins, Jack and Chand, Shelvin and Vanderkop, Anthony and Howard, David},
+  journal={IEEE Access}, 
+  title={A Review of Physics Simulators for Robotic Applications}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={51416-51431},
+  keywords={Robots;Robot sensing systems;Mobile robots;Physics;Sensors;Legged locomotion;Navigation;Simulation;review;robotics;field robotics;soft robotics;aerial robotics;marine robotics;manipulation;robotic learning;surgical robotics},
+  doi={10.1109/ACCESS.2021.3068769}}
+
+@ARTICLE{RobotSimulation2,
+  author={Kargar, Seyed Mohamad and Yordanov, Borislav and Harvey, Carlo and Asadipour, Ali},
+  journal={IEEE Access}, 
+  title={Emerging Trends in Realistic Robotic Simulations: A Comprehensive Systematic Literature Review}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={191264-191287},
+  keywords={Robots;Artificial intelligence;Training;Testing;Simulation;Operating systems;Mobile robots;Wheels;Simulation;artificial intelligence;robot operating system;wheeled mobile robot},
+  doi={10.1109/ACCESS.2024.3404881}}
+@misc{RobotSimulationRL,
+      title={Comparing Popular Simulation Environments in the Scope of Robotics and Reinforcement Learning}, 
+      author={Marian Körber and Johann Lange and Stephan Rediske and Simon Steinmann and Roland Glück},
+      year={2021},
+      eprint={2103.04616},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2103.04616}, 
+}
+@misc{gazebo,
+  author       = {Open Source Robotics Foundation},
+  title        = {Gazebo - Robot Simulation Made Easy},
+  year         = {2025},
+  url          = {https://gazebosim.org/},
+}
+
+@article{AntiWindUpBackCalculation1,
+  title={Integrator Windup and How to Avoid It},
+  author={K. J. {\AA}strom and Lars Rundqwist},
+  journal={1989 American Control Conference},
+  year={1989},
+  pages={1693-1698},
+  url={https://api.semanticscholar.org/CorpusID:36848080}
+}
+@article{AntiWindUpBackCalculation2,
+  title={Back calculation Anti Windup PID controller on Several Well-Known Tuning Method for Glycerin Bleaching Process Temperature Regulation},
+  author={Mohd Hafiz A. Jalil and Mohd Nasir Taib and Mohd Hezri Fazalul Rahiman and Rohaiza Hamdan},
+  journal={International Journal of Integrated Engineering},
+  year={2014},
+  volume={6},
+  url={https://api.semanticscholar.org/CorpusID:55801339}
+}
+@inproceedings{AntiWindUpBackCalculation3,
+  title={Problems of modelling Proportional–Integral–Derivative controller in automated control systems},
+  author={A. I. Doroshenko},
+  year={2017},
+  url={https://api.semanticscholar.org/CorpusID:62833925}
+}
+@inproceedings{AntiWindUpBackCalculation4,
+  title={Tracking Time Adjustment In Back Calculation Anti-Windup Scheme},
+  author={Hayk Markaroğlu and Mujde Guzelkaya and Ibrahim Eksin and Engin Yesil},
+  year={2006},
+  url={https://api.semanticscholar.org/CorpusID:16428437}
+}
+
+@INPROCEEDINGS{AdeLuca_sensorlesscollision1,
+  author={de Luca, A. and Mattone, R.},
+  booktitle={Proceedings of the 2005 IEEE International Conference on Robotics and Automation}, 
+  title={Sensorless Robot Collision Detection and Hybrid Force/Motion Control}, 
+  year={2005},
+  volume={},
+  number={},
+  pages={999-1004},
+  keywords={Robot sensing systems;Motion detection;Force control;Force sensors;Motion control;Fault detection;Contacts;Switches;Manipulator dynamics;Computational geometry;Collision detection;fault detection and isolation;hybrid force/motion control},
+  doi={10.1109/ROBOT.2005.1570247}}
+
+@ARTICLE{AdeLuca_sensorlesscollision2,
+  author={Haddadin, Sami and De Luca, Alessandro and Albu-Schäffer, Alin},
+  journal={IEEE Transactions on Robotics}, 
+  title={Robot Collisions: A Survey on Detection, Isolation, and Identification}, 
+  year={2017},
+  volume={33},
+  number={6},
+  pages={1292-1312},
+  keywords={Collision avoidance;Robot sensing systems;Service robots;Real-time systems;Human-robot interaction;Algorithm design and analysis;Drones;Collision detection;collision identification;collision isolation;flexible joint manipulators;human-friendly robotics;physical human–robot interaction (pHRI);safe robotics},
+  doi={10.1109/TRO.2017.2723903}}
+
+@INPROCEEDINGS{AdeLuca_sensorlesscollision3,
+  author={Magrini, Emanuele and Flacco, Fabrizio and De Luca, Alessandro},
+  booktitle={2014 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+  title={Estimation of contact forces using a virtual force sensor}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={2126-2133},
+  keywords={Force;Robot kinematics;Robot sensing systems;Jacobian matrices;Joints;Torque},
+  doi={10.1109/IROS.2014.6942848}}
+
+@article{AdeLuca_sensorlesscollision4,
+  title={Collision detection and reaction: A contribution to safe physical Human-Robot Interaction},
+  author={Sami Haddadin and Alin O. Albu-Sch{\"a}ffer and Alessandro De Luca and Gerd Hirzinger},
+  journal={2008 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year={2008},
+  pages={3356-3363},
+  url={https://api.semanticscholar.org/CorpusID:1661654}
+}
+
+@INPROCEEDINGS{AdeLuca_sensorlesscollision5,
+  author={De Luca, Alessandro and Albu-Schaffer, Alin and Haddadin, Sami and Hirzinger, Gerd},
+  booktitle={2006 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+  title={Collision Detection and Safe Reaction with the DLR-III Lightweight Manipulator Arm}, 
+  year={2006},
+  volume={},
+  number={},
+  pages={1623-1630},
+  keywords={Robot sensing systems;Manipulators;Humans;Switches;Intelligent robots;Motion planning;Delay estimation;Torque control;Aerospace safety;Mechatronics},
+  doi={10.1109/IROS.2006.282053}}
+
+@ARTICLE{LeggedRobotStateEstimator,
+AUTHOR={Camurri, Marco  and Ramezani, Milad  and Nobili, Simona  and Fallon, Maurice },
+TITLE={Pronto: A Multi-Sensor State Estimator for Legged Robots in Real-World Scenarios},
+JOURNAL={Frontiers in Robotics and AI},
+VOLUME={7},
+YEAR={2020},
+URL={https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2020.00068},
+DOI={10.3389/frobt.2020.00068},
+ISSN={2296-9144},
+ABSTRACT={<p>In this paper, we present a modular and flexible state estimation framework for legged robots operating in real-world scenarios, where environmental conditions, such as occlusions, low light, rough terrain, and dynamic obstacles can severely impair estimation performance. At the core of the proposed estimation system, called Pronto, is an Extended Kalman Filter (EKF) that fuses IMU and Leg Odometry sensing for pose and velocity estimation. We also show how Pronto can integrate pose corrections from visual and LIDAR and odometry to correct pose drift in a loosely coupled manner. This allows it to have a real-time proprioceptive estimation thread running at high frequency (250–1,000 Hz) for use in the control loop while taking advantage of occasional (and often delayed) low frequency (1–15 Hz) updates from exteroceptive sources, such as cameras and LIDARs. To demonstrate the robustness and versatility of the approach, we have tested it on a variety of legged platforms, including two humanoid robots (the Boston Dynamics Atlas and NASA Valkyrie) and two dynamic quadruped robots (IIT HyQ and ANYbotics ANYmal) for more than 2 h of total runtime and 1.37 km of distance traveled. The tests were conducted in a number of different field scenarios under the conditions described above. The algorithms presented in this paper are made available to the research community as open-source ROS packages.</p>}}
+@INPROCEEDINGS{hapticcontact,
+  author={Hoepflinger, Mark A. and Remy, C. David and Hutter, Marco and Spinello, Luciano and Siegwart, Roland},
+  booktitle={2010 IEEE International Conference on Robotics and Automation}, 
+  title={Haptic terrain classification for legged robots}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={2828-2833},
+  keywords={Haptic interfaces;Legged locomotion;Rough surfaces;Surface roughness;Machine learning algorithms;Computational geometry;Friction;Stability;Foot;Force feedback},
+  doi={10.1109/ROBOT.2010.5509309}}
+
+@INPROCEEDINGS{ProprioceptiveSensorFusion,
+  author={Fink, Geoff and Semini, Claudio},
+  booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Proprioceptive Sensor Fusion for Quadruped Robot State Estimation}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={10914-10920},
+  keywords={Legged locomotion;Sensor fusion;Observers;Robot sensing systems;Velocity measurement;Root mean square;Robots},
+  doi={10.1109/IROS45743.2020.9341521}}
+
+@Article{WheelLeggedContact,
+AUTHOR = {Wang, Yaodong and Hong, Meng and Chai, Hui and Zhang, Yinglong and Wang, Guan and Wu, Chaoqun and Guo, Min},
+TITLE = {Research on Foot Contact State Detection Technology of Wheel-Legged Robot},
+JOURNAL = {Sensors},
+VOLUME = {24},
+YEAR = {2024},
+NUMBER = {12},
+ARTICLE-NUMBER = {3956},
+URL = {https://www.mdpi.com/1424-8220/24/12/3956},
+PubMedID = {38931739},
+ISSN = {1424-8220},
+ABSTRACT = {The accurate perception of external environment information through the robot foot is crucial for the mobile robot to evaluate its ability to traverse terrain. Adequate foot-end contact signals can provide robust support for robot motion control and decision-making processes. The shape and uncertain rotation of the wheel-legged robot foot end represent a significant challenge to sensing the robot foot-end contact state, which current foot-end sensing schemes cannot solve. This paper presents a sensing method for the tire stress field of wheel-legged robots. A finite element analysis was conducted to study the deformation characteristics of the foot-end tire under force. Based on this analysis, a heuristic contact position estimator was designed that utilizes symmetrical deformation characteristics. Strain sensors, arranged in an array, extract the deformation information on the inner surface of the tire at a frequency of 200 Hz. The contact position estimator reduces the dimensionality of the data and fits the eigenvalues to the estimated contact position. Using support vector regression, the force estimator utilizes the estimated contact position and sensor signal to estimate the normal reaction force, designated as FZ. The sensing system is capable of detecting the contact position on the wheel circumference (with a root mean square error of 1.150°), as well as the normal force of 160 N on the Z axis (with a root mean square error of 6.04%). To validate the efficacy of the sensor detection method, a series of randomized and repeated experiments were conducted on a self-constructed test platform. This novel approach offers a promising avenue for perceiving contact states in wheel-legged robots.},
+DOI = {10.3390/s24123956}
+}
+@INPROCEEDINGS{EKFcontact,
+  author={Zhang, Zhuqing and Li, Zhang and Chen, Yong and Wang, Dongqi and Yu, Jiyu and Xiong, Rong and Wang, Yue},
+  booktitle={2023 42nd Chinese Control Conference (CCC)}, 
+  title={Invariant EKF based State Estimator for Quadruped Robots}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={4311-4317},
+  keywords={Linear systems;Position measurement;Aerospace electronics;Quadrupedal robots;High frequency;State estimation;Observability;State Estimation;Localization and mapping;Quadruped Robot},
+  doi={10.23919/CCC58697.2023.10240429}}
+
+@article{ContactCurrent,
+  title={Leg's Tip-Ground Contact Detection Based on Drive Currents in a Real Walking Robot},
+  author={Marek Wasik},
+  journal={J. Autom. Mob. Robotics Intell. Syst.},
+  year={2015},
+  volume={9},
+  pages={62-67},
+  url={https://api.semanticscholar.org/CorpusID:55673880}
+}
+
+@article{climbing_testbench,
+  title={Lower Gravity Demonstratable Testbed for Space Robot Experiments},
+  author={Kentaro Uno and Kazuki Takada and Keita Nagaoka and Takuya Kato and Arthur Candalot and Kazuya Yoshida},
+  journal={2024 IEEE/SICE International Symposium on System Integration (SII)},
+  year={2023},
+  pages={1183-1184},
+  url={https://api.semanticscholar.org/CorpusID:262054097}
+}
+
+
+@article{Biomimetics,
+author = {Bar-Cohen, Yoseph},
+year = {2006},
+month = {04},
+pages = {P1-P12},
+title = {Biomimetics – Using nature to inspire human innovation},
+volume = {1},
+journal = {Bioinspiration \& biomimetics},
+doi = {10.1088/1748-3182/1/1/P01}
+}
+
+@article{
+Grasshopper1,
+author = {Yi Song  and Huan Wang  and Zhendong Dai  and Aihong Ji  and Huaping Wu  and Stanislav N. Gorb },
+title = {Multiple forces facilitate the aquatic acrobatics of grasshopper and bioinspired robot},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {121},
+number = {14},
+pages = {e2313305121},
+year = {2024},
+doi = {10.1073/pnas.2313305121},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2313305121},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2313305121},
+abstract = {Navigating diverse terrains is crucial for wild-operating robotics but remains a grand challenge. Research on Chinese rice grasshoppers reveals a surprising adaptation: Their ability to swim and leap off the water, challenging conventional notions of terrestrial animals’ limitations in aquatic environments and offering significant inspiration for advanced robotics. Investigating the grasshoppers’ aquatic acrobatics unveils a synergy between hydrostatics and limb-controlled hydrodynamics. Grasshopper-inspired robot emulates the aquatic prowess of animals, demonstrating the advantage of decoupling the challenge of aquatic locomotion by using combined static and dynamic hydro forces. This study will spark further research into the strategies employed by legged terrestrial animals in complex environments and further promote the integration of these principles into advanced robots, therefore facilitating cross-medium locomotion. Aquatic locomotion is challenging for land-dwelling creatures because of the high degree of fluidity with which the water yields to loads. We surprisingly found that the Chinese rice grasshopper Oxya chinensis, known for its terrestrial acrobatics, could swiftly launch itself off the water’s surface in around 25 ms and seamlessly transition into flight. Biological observations showed that jumping grasshoppers use their front and middle legs to tilt up bodies first and then lift off by propelling the water toward the lower back with hind legs at angular speeds of up to 18°/ms, whereas the swimming grasshoppers swing their front and middle legs in nearly horizontal planes and move hind legs less violently (~8°/ms). Force measurement and model analysis indicated that the weight support could be achieved by hydrostatics which are proportionate to the mass of the grasshoppers, while the propulsions for motion are derived from the controlled limb–water interactions (i.e., the hydrodynamics). After learning the structural and behavioral strategies of the grasshoppers, a robot was created and was capable of swimming and jumping on the water surface like the insects, further demonstrating the effectiveness of decoupling the challenges of aquatic locomotion by the combined use of the static and dynamic hydro forces. This work not only uncovered the combined mechanisms responsible for facilitating aquatic acrobatics in this species but also laid a foundation for developing bioinspired robots that can locomote across multiple media.}}
+
+
+@Article{Grasshopper2,
+AUTHOR = {Zhou, Qijie and Li, Gangyang and Tang, Rui and Xu, Yi and Wen, Hao and Shi, Qing},
+TITLE = {Stable Jumping Control Based on Deep Reinforcement Learning for a Locust-Inspired Robot},
+JOURNAL = {Biomimetics},
+VOLUME = {9},
+YEAR = {2024},
+NUMBER = {9},
+ARTICLE-NUMBER = {548},
+URL = {https://www.mdpi.com/2313-7673/9/9/548},
+PubMedID = {39329570},
+ISSN = {2313-7673},
+ABSTRACT = {Biologically inspired jumping robots exhibit exceptional movement capabilities and can quickly overcome obstacles. However, the stability and accuracy of jumping movements are significantly compromised by rapid changes in posture. Here, we propose a stable jumping control algorithm for a locust-inspired jumping robot based on deep reinforcement learning. The algorithm utilizes a training framework comprising two neural network modules (actor network and critic network) to enhance training performance. The framework can control jumping by directly mapping the robot’s observations (robot position and velocity, obstacle position, target position, etc.) to its joint torques. The control policy increases randomness and exploration by introducing an entropy term to the policy function. Moreover, we designed a stage incentive mechanism to adjust the reward function dynamically, thereby improving the robot’s jumping stability and accuracy. We established a locus-inspired jumping robot platform and conducted a series of jumping experiments in simulation. The results indicate that the robot could perform smooth and non-flip jumps, with the error of the distance from the target remaining below 3%. The robot consumed 44.6% less energy to travel the same distance by jumping compared with walking. Additionally, the proposed algorithm exhibited a faster convergence rate and improved convergence effects compared with other classical algorithms.},
+DOI = {10.3390/biomimetics9090548}
+}
+@inproceedings{Grasshopper3,
+  title={PRELIMINARY DESIGN ANALYSIS OF LIKE-GRASSHOPPER JUMPING MECHANISM},
+  author={Aylin Konez},
+  year={2006},
+  url={https://api.semanticscholar.org/CorpusID:17822154}
+}
+@ARTICLE{LimitsEllipsoid,
+  author={Melchiorri, C. and Chiaccio, P. and Chiaverini, S. and Sciavicco, L. and Siciliano, B.},
+  journal={IEEE Transactions on Robotics and Automation}, 
+  title={Comments on "Global task space manipulability ellipsoids for multiple-arm systems" and further considerations" [with reply] P. Chiacchio, et al}, 
+  year={1993},
+  volume={9},
+  number={2},
+  pages={232-236},
+  keywords={Ellipsoids;Jacobian matrices;Manipulators;Legged locomotion;Robots;Orbital robotics;Performance evaluation;End effectors;Singular value decomposition;Mechanical systems},
+  doi={10.1109/70.238288}}
+
+@Inbook{GrassHoppers,
+author="Capinera, John L.",
+title="Grasshoppers, Katydids and Crickets (Orthoptera)",
+bookTitle="Encyclopedia of Entomology",
+year="2005",
+publisher="Springer Netherlands",
+address="Dordrecht",
+pages="1003--1017",
+isbn="978-0-306-48380-6",
+doi="10.1007/0-306-48380-7_1864",
+url="https://doi.org/10.1007/0-306-48380-7_1864"
+}
+
+
