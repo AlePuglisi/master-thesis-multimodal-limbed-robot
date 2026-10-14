@@ -2,9 +2,9 @@
 Master Thesis and Executive Summary LaTeX source of my Master Thesis. This thesis research started during an ExtraEU exchange at the Space Robotics Lab (SRL), Tohoku University, and was concluded in my university: Politecnico di Milano. <br/>
 
 <p align="center">
-<img src="assets/PolimiLogo.png" height="80"/> &nbsp;
-<img src="assets/TohokuLogo.jpg" height="80"/> &nbsp;
-<img src="assets/SRLLogo.png" height="80"/> &nbsp;
+<img src="assets/PolimiLogo.png" height="110"/> &nbsp;
+<img src="assets/TohokuLogo.jpg" height="110"/> &nbsp;
+<img src="assets/SRLLogo.png" height="110"/> &nbsp;
 </p>
 
 <h3 align="center">
@@ -24,8 +24,8 @@ Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbe
 </p>
 
 <p align="center">
-<img src="assets/LIMBERO_GRIEEL.png" height="170"/> &nbsp;
-<img src="assets/quad_manip.jpg" height="170"/> &nbsp;
+<img src="assets/LIMBERO_GRIEEL.png" height="220"/> &nbsp;
+<img src="assets/quad_manip.jpg" height="220"/> &nbsp;
 </p>
 
 
