@@ -11,7 +11,7 @@ Master Thesis and Executive Summary LaTeX source of my Master Thesis. This thesi
 Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbed Robot for Unstructured Environments
 </h3>
 <p align="center">
-  <a href="https://alepuglisi.github.io/">Alessandro Puglisi</a><sup>1</sup>,</span>
+  <a href="https://alepuglisi.github.io/">Alessandro Puglisi</a><sup>1 (ex 2)</sup>,</span>
   <a href="https://scholar.google.com/citations?user=SiorK6wAAAAJ&hl=it">Luca Bascetta</a><sup>2</sup>,</span>
   <a href="https://scholar.google.com/citations?user=mzUOHycAAAAJ&hl=en">Kazuya Yoshida</a><sup>3</sup>,</span>
   <br>
