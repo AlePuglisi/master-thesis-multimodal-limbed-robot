@@ -70,7 +70,7 @@ This work has defined the foundation of smooth locomotion transition and system 
 </br>
 
 <p align="center">
-<img width=600 height=518 src=./assets/transform_sequence_algorithm_GIF.gif>
+<img width=550 src=./assets/transform_sequence_algorithm_GIF.gif>
 </p>
 
 ## Supplementary Materials: GitHub repositories used in this work
@@ -83,7 +83,9 @@ Gazebo simulation, robot model, ROS2 control and planning architecture. Updated 
 - [grasshopper-dexterity-ellipsoid](https://github.com/AlePuglisi/grasshopper-dexterity-ellipsoid) (MATLAB, robotics_toolbox by Peter Corke) <br/>
 Application of the base manipulability ellipsoid to a bio-inspired example as validation of the novel limbed kinematic theory. Described in Chapter 3.3.3.
 
-
+<p align="center">
+  <img width=550 src=./assets/grasshopper_ellipsoid.png>
+</p>
 
 ## Do you wanna read this Thesis? 
 
@@ -136,9 +138,7 @@ As for the main Thesis, the poor free version of overleaf re
 **Overleaf?**<br/>
 As for the main Thesis, the poor free version of overleaf reach Time out for this document.
 
-## References 
-
-The full list of related work and publications that inspired this thesis are listed in [/thesis_tex/Thesis.bib](./thesis_tex/Thesis.bib) 
+## How to Cite and References
 
 Please if you use some results from this thesis, cite this work as:
 ```bibtex
@@ -147,15 +147,15 @@ Please if you use some results from this thesis, cite this work as:
   title     = {Motion control and manipulability analysis of {LIMBERO-GRIEEL}: a multimodal limbed robot for unstructured environments},
   school    = {Politecnico di Milano},
   year      = {2025},
-  month     = {4},
   type      = {Master's thesis},
-  address   = {Milan, Italy},
   note      = {Supervisor: Luca Bascetta. Co-supervisor: Kazuya Yoshida},
   url       = {https://hdl.handle.net/10589/235457}
 }
 ```
 
-If you want to know more about LIMBERO (the baseline robot extended with the GRIEEL end-effector in this work), a research paper has been [published for ICRA 2026](https://ieeexplore.ieee.org/document/11696606)
+The full list of related works and publications that inspired this thesis are listed in [/thesis_tex/Thesis.bib](./thesis_tex/Thesis.bib). Otherwise, as pdf version in [/pdf/chapters/bibliography.pdf](./pdf/chapters/bibliography.pdf).
+
+If you want to know more about LIMBERO (the baseline robotic system extended with the GRIEEL end-effector in this work), a research paper has been [published at ICRA 2026](https://ieeexplore.ieee.org/document/11696606)
 
 ```bibtex
 @inproceedings{LIMBERO,
