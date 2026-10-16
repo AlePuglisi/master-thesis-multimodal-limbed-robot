@@ -98,7 +98,7 @@ The non compressed executive summary without loss is also in this repo, in  [pdf
 Additionally, each chapter has been separated in [pdf/chapters/](./pdf/chapters/) maintaining the original manuscript dimension to avoid any compression loss. Please notice that the hyperlinking is lost in the separated chapters (images, equations, bibliography, supplementary material link)
 
 Please refer to the uncompressed versions or the original images to appreciate plots' labels and diagrams, for this reason both version have been shared here.<br/>
-All the images used in this thesis are shared in [assets/](./assets/)
+All the images used in this thesis are shared in [thesis_tex/Images/](./thesis_tex/Images/)
 
 
 
