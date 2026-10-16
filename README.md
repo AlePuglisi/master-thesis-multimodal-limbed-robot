@@ -32,19 +32,18 @@ Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbe
 
 <p align="center">
   <b> Supplementary Materials </b> <br/>
-
+</p>
+<p>
   <a href="https://youtube.com/playlist?list=PLFgoOtxCJKTPv_dibdvSUT_YPGDJBc_5C&si=XT7-SM5ew28pVOmt">
     <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="40">
   </a>
-  Check the <a href="https://youtube.com/playlist?list=PLFgoOtxCJKTPv_dibdvSUT_YPGDJBc_5C&si=XT7-SM5ew28pVOmt">YouTube playlist</a> to see the simulations and experiments. <br/><br/>
+  Check the <a href="https://youtube.com/playlist?list=PLFgoOtxCJKTPv_dibdvSUT_YPGDJBc_5C&si=XT7-SM5ew28pVOmt">YouTube playlist</a> to see the simulations and experiments. <br/>
 
   <img align="center" src="https://cdn.simpleicons.org/github/white" width="40"/>
   Check <a href="https://github.com/AlePuglisi/LIMBERO-GRIEEL">LIMBERO-GRIEEL </a> , <a href="https://github.com/AlePuglisi/limbed-robot-control">limbed-robot-control </a> , <a href="https://github.com/AlePuglisi/grasshopper-dexterity-ellipsoid">grasshopper-dexterity-ellipsoid</a> 
   repositories
-  
 </p>
 
-<br/>
 
 <details closed>
 <summary  align="center"> Thesis Abstract </summary>
