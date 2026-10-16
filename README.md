@@ -132,7 +132,45 @@ With a free overleaf account it will fail due to compilation time exceeded. If y
 The same said above holds to compile the Executive Summary. In this case just open [executive_summary.tex](./summary_tex/executive_summary.tex) and compile it by saving or running the LaTeX Workshop compiler. 
 
 **Overleaf?**<br/>
+As for the main Thesis, the poor free version of overleaf re
+**Overleaf?**<br/>
 As for the main Thesis, the poor free version of overleaf reach Time out for this document.
+
+## References 
+
+The full list of related work and publications that inspired this thesis are listed in [/thesis_tex/Thesis.bib](./thesis_tex/Thesis.bib) 
+
+Please if you use some results from this thesis, cite this work as:
+```bibtex
+@mastersthesis{puglisi2025limberogrieel,
+  author    = {Puglisi, Alessandro},
+  title     = {Motion control and manipulability analysis of {LIMBERO-GRIEEL}: a multimodal limbed robot for unstructured environments},
+  school    = {Politecnico di Milano},
+  year      = {2025},
+  month     = {4},
+  type      = {Master's thesis},
+  address   = {Milan, Italy},
+  note      = {Supervisor: Luca Bascetta. Co-supervisor: Kazuya Yoshida},
+  url       = {https://hdl.handle.net/10589/235457}
+}
+```
+
+If you want to know more about LIMBERO (the baseline robot extended with the GRIEEL end-effector in this work), a research paper has been [published for ICRA 2026](https://ieeexplore.ieee.org/document/11696606)
+
+```bibtex
+@inproceedings{LIMBERO,
+  author={Uno, Kentaro and Imai, Masazumi and Takada, Kazuki and Kataonami, Teruhiro and Matsuura, Yudai and Ringeval-Meusnier, Antonin and Nagaoka, Keita and Eguchi, Mikio and Nishibe, Ryo and Yoshida, Kazuya},
+  booktitle={2026 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={LIMBERO: A Limbed Climbing Exploration Robot Toward Traveling on Rocky Cliffs}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={21412-21419},
+  keywords={Grippers;Robots;Arrays;Climbing robots;Design methodology;Spine;Limbs;Printing;Surfaces;Aluminum},
+  doi={10.1109/ICRA57385.2026.11696606}}
+
+```
+
 
 
 
