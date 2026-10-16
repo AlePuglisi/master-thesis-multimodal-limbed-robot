@@ -21,6 +21,8 @@ Motion Control and Manipulability Analysis of LIMBERO-GRIEEL: a Multimodal Limbe
   <sup>3</sup> Tohoku University </span> 
   <br>
   <b>Master Thesis in Automation and Control Engineering</b>
+  <br/><br/>
+  Academic Year: 2024-25 (Thesis Submitted in March 2025)
 </p>
 
 <p align="center">
@@ -82,9 +84,6 @@ Gazebo simulation, robot model, ROS2 control and planning architecture. Updated 
 - [grasshopper-dexterity-ellipsoid](https://github.com/AlePuglisi/grasshopper-dexterity-ellipsoid) (MATLAB, robotics_toolbox by Peter Corke) <br/>
 Application of the base manipulability ellipsoid to a bio-inspired example as validation of the novel limbed kinematic theory. Described in Chapter 3.3.3.
 
-GitHub | LIMBERO - GRIEEL
-
-ROS2 workspace used for simulation and experiments with Limbero-Grieel
 
 
 ## Do you wanna read this Thesis? 
